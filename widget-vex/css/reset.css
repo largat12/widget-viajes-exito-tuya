@@ -1,0 +1,417 @@
+:root {
+    --red-portal-exito: #ff0000;
+    --red-portal-exito-hover: #d80000;
+    --red-portal-exito: #ff0000;
+    --red-portal-exito-hover: #d80000;
+    --red-portal-exito-amarillo: #ffd802;
+    --red-portal-exito--amarillo-hover: #c5a600;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?9z7l00");
+  src: url("fonts/icomoon.eot?9z7l00#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?9z7l00") format("truetype"), url("fonts/icomoon.woff?9z7l00") format("woff"), url("fonts/icomoon.svg?9z7l00#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; 
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), 
+        url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), 
+        url(../fonts/glyphicons-halflings-regular.woff) format('woff'), 
+        url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), 
+        url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none; 
+  font-family: "Poppins", Helvetica, sans-serif;  
+  
+}
+
+h1, h2, h3, h4, h5, h6, p, span, strong {
+    font-family: "Poppins", Helvetica, sans-serif !important;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-danger.focus, .btn-danger:focus{
+    box-shadow: none !important;
+}
+.form-control:focus{
+    box-shadow: none !important; 
+}
+
+
+
+
+.icon-hot:before {
+    content: "\e826";
+}
+.icon-hot-solid:before {
+    content: "\e827";
+}
+.icon-chevron-left:before {
+    content: "\e843";
+}
+.icon-chevron-right:before {
+    content: "\e844";
+}
+.icon-chevron-down:before {
+    content: "\e845";
+}
+.icon-chevron-up:before {
+    content: "\e846";
+}
+.icon-plus:before {
+    content: "\e847";
+}
+.icon-change:before {
+    content: "\e848";
+}
+.icon-especiales:before {
+    content: "\e800";
+}
+.icon-habitacion:before {
+    content: "\e801";
+}
+.icon-ida-regreso:before {
+    content: "\e802";
+}
+.icon-ingreso:before {
+    content: "\e803";
+}
+.icon-salida:before {
+    content: "\e804";
+}
+.icon-ofertas:before {
+    content: "\e900";
+}
+.icon-ofertas-2:before {
+    content: "\e901";
+}
+.icon-cruceros:before {
+    content: "\e902";
+}
+.icon-bus:before {
+    content: "\e903";
+}
+.icon-bus-avion:before {
+    content: "\e904";
+}
+.icon-asistencia:before {
+    content: "\e905";
+}
+.icon-transfer:before {
+    content: "\e906";
+}
+.icon-pasajero:before {
+    content: "\e807";
+}
+.icon-search:before {
+    content: "\e808";
+}
+.icon-servicio:before {
+    content: "\e809";
+}
+.icon-vueloyauto:before {
+    content: "\e810";
+}
+.icon-cabina:before {
+    content: "\e811";
+}
+.icon-circuitos:before {
+    content: "\e812";
+}
+.icon-destino:before {
+    content: "\e819";
+}
+.icon-equipaje:before {
+    content: "\e820";
+}
+.icon-hotel:before {
+    content: "\e813";
+}
+.icon-twitter:before {
+    content: "\e853";
+}
+.icon-instagram:before {
+    content: "\e849";
+}
+.icon-linkedin:before {
+    content: "\e850";
+}
+.icon-youtube:before {
+    content: "\e851";
+}
+.icon-facebook:before {
+    content: "\e852";
+}
+.icon-login:before {
+    content: "\e821";
+}
+.icon-paquetes:before {
+    content: "\e814";
+}
+.icon-personas:before {
+    content: "\e822";
+}
+.icon-stair:before {
+    content: "\e806";
+}
+.icon-stair-light:before {
+    content: "\e805";
+}
+.icon-actividades:before {
+    content: "\e818";
+}
+.icon-autos:before {
+    content: "\e815";
+}
+.icon-avion:before {
+    content: "\e816";
+}
+.icon-avion-regreso:before {
+    content: "\e817";
+}
+.icon-ayuda:before {
+    content: "\e923";
+}
+.icon-corporativo:before {
+    content: "\e824";
+}
+.icon-Hora:before {
+    content: "\e825";
+}
+.icon-bebida:before {
+    content: "\e829 ";
+}
+.icon-alimentacion:before {
+    content: "\e830";
+}
+.icon-dinero:before {
+    content: "\e831";
+}
+.icon-pasaporte:before {
+    content: "\e832";
+}
+.icon-vacunacion:before {
+    content: "\e833";
+}
+.icon-visa:before {
+    content: "\e834";
+}
+.icon-caminar:before {
+    content: "\e835";
+}
+.icon-alerta:before {
+    content: "\e836";
+}
+.icon-cuotas:before {
+    content: "\e828";
+}
+.icon-transferencia:before {
+    content: "\e839";
+}
+.icon-pagos-efectivo:before {
+    content: "\e838";
+}
+.icon-medios-pago:before {
+    content: "\e837";
+}
+.icon-revista:before {
+    content: "\e840";
+}
+.icon-reservas:before {
+    content: "\e842";
+}
+.icon-requisitos:before {
+    content: "\e841";
+}
+.icon-seguridad:before {
+    content: "\e855";
+}
+.icon-puntos_colombia:before {
+    content: "\e856";
+}
+.icon-tarjeta:before {
+    content: "\e854";
+}
+.icon-menu:before {
+    content: "\e857";
+}
+.icon-menu-cerrar:before {
+    content: "\e858";
+}
+.icon-ayuda:before {
+    content: "\e907";
+}
+.icon-informacion:before {
+    content: "\e908";
+}
+.icon-log-out:before {
+    content: "\e909";
+}
+
+
+
+
+strong {
+     font-weight: 700;
+}
+ .border-0 {
+     border: none;
+}
+ .pad-0 {
+     padding-left: 0;
+     padding-right: 0;
+}
+ .pad-left-0 {
+     padding-left: 0;
+}
+ .pad-right-0 {
+     padding-right: 0;
+}
+ .pad-10 {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .pad-20 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ .pad-30 {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+ .pad-btm-10 {
+     padding-bottom: 10px;
+}
+ .pad-btm-20 {
+     padding-bottom: 20px;
+}
+ .pad-btm-30 {
+     padding-bottom: 30px;
+}
+ .pad-btm-100 {
+     padding-bottom: 100px;
+}
+ .pad-top-5 {
+     padding-top: 5px;
+}
+ .pad-top-10 {
+     padding-top: 10px;
+}
+ .pad-top-20 {
+     padding-top: 20px;
+}
+ .pad-top-30 {
+     padding-top: 30px;
+}
+ .pad-top-70 {
+     padding-top: 30px;
+}
+ .pad-lt-rt {
+     padding-left: 5px;
+     padding-right: 5px;
+}
+ .mg-top-5 {
+     margin-top: 5px;
+}
+ .mg-top-10 {
+     margin-top: 10px;
+}
+ .mg-top-20 {
+     margin-top: 20px;
+}
+ .mg-top-30 {
+     margin-top: 30px;
+}
+ .mg-top-40 {
+     margin-top: 40px;
+}
+ .mg-top-50 {
+     margin-top: 50px;
+}
+ .mg-top-60 {
+     margin-top: 60px;
+}
+ .mg-top-70 {
+     margin-top: 70px;
+}
+ .mg-top-80 {
+     margin-top: 80px;
+}
+ .mg-top-100 {
+     margin-top: 100px;
+}
+ .mg-top-150 {
+     margin-top: 150px;
+}
+ .mg-left-10 {
+     margin-left: 10px;
+}
+ .mg-left-20 {
+     margin-left: 10px;
+}
+ .mg {
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ .mg0 {
+     margin-top: 10px;
+     margin-bottom: 0px;
+}
+ .top {
+     top: 30%;
+}
+ .align-top {
+     vertical-align: top;
+}
+ .float-right {
+     float: right;
+}
+ .float-left {
+     float: left;
+}
+ .auto {
+     margin-left: auto;
+     margin-right: auto;
+}
+ .left-auto {
+     margin-left: auto;
+}
+ .right-auto {
+     margin-right: auto;
+}
+ .center-absolute {
+     position: absolute;
+     right: 0;
+     left: 0;
+}
+ .vert-center {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ .center {
+     margin-right: auto;
+     margin-left: auto;
+     display: block;
+}

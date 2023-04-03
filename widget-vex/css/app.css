@@ -1,0 +1,4865 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+@import url(/Portals/1/Skins/renovacion/css/root.css);
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?9z7l00");
+  src: url("../widget/css/fonts/icomoon.eot?9z7l00#iefix") format("embedded-opentype"), url("../widget/css/fonts/icomoon.ttf?9z7l00") format("truetype"), url("../widget/css/fonts/icomoon.woff?9z7l00") format("woff"), url("../widget/css/fonts/icomoon.svg?9z7l00#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; 
+}
+html {
+    font-size: 30px;
+}
+html, body {
+    font-size: 16px;
+}
+.fal, .far {
+    font-family: "Font Awesome 5 Pro";
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none; 
+  font-family: "Poppins", Helvetica, sans-serif;  
+
+}
+html::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+html::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #c7c7c7;
+}
+a {
+    cursor: pointer;
+    color: var(--red-portal-exito);
+}
+
+a:hover{
+    color: var(--red-portal-exito-2);
+}
+
+div#content-table-product div#sheets-viewport > div{
+    display: block !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, span, strong{
+  font-family: "Poppins", Helvetica, sans-serif !important;
+}
+div#ProtocolosCovid i.fa.fa-times {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+p, span {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif; 
+}
+.parrafo, p.parrafo, span.parrafo, .accordion>.card> .collapse .card-body, .accordion>.card> .collapse .card-body p, .accordion>.card> .collapse .card-body li, .accordion>.card> .collapse .card-body span, .accordion>.card> .collapse .card-body a, p.parrafo span {
+    font-size: .85rem;
+    line-height: 1.4;
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+.content-terminos-condiciones h1, .content-terminos-condiciones h2, .content-terminos-condiciones h3, .content-terminos-condiciones h4, .content-terminos-condiciones h5, .content-terminos-condiciones h6 {
+    color: var(--red-portal-exito-texto);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next {
+    right: 0px;
+}
+
+.icon-hot:before {
+    content: "\e826";
+}
+.icon-hot-solid:before {
+    content: "\e827";
+}
+.icon-chevron-left:before {
+    content: "\e843";
+}
+.icon-chevron-right:before {
+    content: "\e844";
+}
+.icon-chevron-down:before {
+    content: "\e845";
+}
+.icon-chevron-up:before {
+    content: "\e846";
+}
+.icon-plus:before {
+    content: "\e847";
+}
+.icon-change:before {
+    content: "\e848";
+}
+.icon-especiales:before {
+    content: "\e800";
+}
+.icon-habitacion:before {
+    content: "\e801";
+}
+.icon-ida-regreso:before {
+    content: "\e802";
+}
+.icon-ingreso:before {
+    content: "\e803";
+}
+.icon-salida:before {
+    content: "\e804";
+}
+.icon-ofertas:before {
+    content: "\e826";
+}
+.icon-pasajero:before {
+    content: "\e807";
+}
+.icon-search:before {
+    content: "\e808";
+}
+.icon-servicio:before {
+    content: "\e809";
+}
+.icon-vueloyauto:before {
+    content: "\e810";
+}
+.icon-cabina:before {
+    content: "\e811";
+}
+.icon-circuitos:before {
+    content: "\e812";
+}
+.icon-destino:before {
+    content: "\e819";
+}
+.icon-equipaje:before {
+    content: "\e820";
+}
+.icon-hotel:before {
+    content: "\e813";
+}
+.icon-twitter:before {
+    content: "\e853";
+}
+.icon-instagram:before {
+    content: "\e849";
+}
+.icon-linkedin:before {
+    content: "\e850";
+}
+.icon-youtube:before {
+    content: "\e851";
+}
+.icon-facebook:before {
+    content: "\e852";
+}
+.icon-login:before {
+    content: "\e821";
+}
+.icon-paquetes:before {
+    content: "\e814";
+}
+.icon-personas:before {
+    content: "\e822";
+}
+.icon-stair:before {
+    content: "\e806";
+}
+.icon-stair-light:before {
+    content: "\e805";
+}
+.icon-actividades:before {
+    content: "\e818";
+}
+.icon-autos:before {
+    content: "\e815";
+}
+.icon-avion:before {
+    content: "\e816";
+}
+.icon-avion-regreso:before {
+    content: "\e817";
+}
+.icon-ayuda:before {
+    content: "\e923";
+}
+.icon-corporativo:before {
+    content: "\e824";
+}
+.icon-Hora:before {
+    content: "\e825";
+}
+.icon-bebida:before {
+    content: "\e829 ";
+}
+.icon-alimentacion:before {
+    content: "\e830";
+}
+.icon-dinero:before {
+    content: "\e831";
+}
+.icon-pasaporte:before {
+    content: "\e832";
+}
+.icon-vacunacion:before {
+    content: "\e833";
+}
+.icon-visa:before {
+    content: "\e834";
+}
+.icon-caminar:before {
+    content: "\e835";
+}
+.icon-alerta:before {
+    content: "\e836";
+}
+.icon-cuotas:before {
+    content: "\e828";
+}
+.icon-transferencia:before {
+    content: "\e839";
+}
+.icon-pagos-efectivo:before {
+    content: "\e838";
+}
+.icon-medios-pago:before {
+    content: "\e837";
+}
+.icon-revista:before {
+    content: "\e840";
+}
+.icon-reservas:before {
+    content: "\e842";
+}
+.icon-requisitos:before {
+    content: "\e841";
+}
+.icon-seguridad:before {
+    content: "\e855";
+}
+.icon-puntos_colombia:before {
+    content: "\e856";
+}
+.icon-tarjeta:before {
+    content: "\e854";
+}
+.icon-menu:before {
+    content: "\e857";
+}
+.icon-menu-cerrar:before {
+    content: "\e858";
+}
+strong {
+     font-weight: 700;
+}
+ .border-0 {
+     border: none;
+}
+ .pad-0 {
+     padding-left: 0;
+     padding-right: 0;
+}
+ .pad-left-0 {
+     padding-left: 0;
+}
+ .pad-right-0 {
+     padding-right: 0;
+}
+ .pad-10 {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .pad-20 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ .pad-30 {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+ .pad-btm-10 {
+     padding-bottom: 10px;
+}
+ .pad-btm-20 {
+     padding-bottom: 20px;
+}
+ .pad-btm-30 {
+     padding-bottom: 30px;
+}
+ .pad-btm-100 {
+     padding-bottom: 100px;
+}
+ .pad-top-5 {
+     padding-top: 5px;
+}
+ .pad-top-10 {
+     padding-top: 10px;
+}
+ .pad-top-20 {
+     padding-top: 20px;
+}
+ .pad-top-30 {
+     padding-top: 30px;
+}
+ .pad-top-70 {
+     padding-top: 30px;
+}
+ .pad-lt-rt {
+     padding-left: 5px;
+     padding-right: 5px;
+}
+ .mg-top-5 {
+     margin-top: 5px;
+}
+ .mg-top-10 {
+     margin-top: 10px;
+}
+ .mg-top-20 {
+     margin-top: 20px;
+}
+ .mg-top-30 {
+     margin-top: 30px;
+}
+ .mg-top-40 {
+     margin-top: 40px;
+}
+ .mg-top-50 {
+     margin-top: 50px;
+}
+ .mg-top-60 {
+     margin-top: 60px;
+}
+ .mg-top-70 {
+     margin-top: 70px;
+}
+ .mg-top-80 {
+     margin-top: 80px;
+}
+ .mg-top-100 {
+     margin-top: 100px;
+}
+ .mg-top-150 {
+     margin-top: 150px;
+}
+ .mg-left-10 {
+     margin-left: 10px;
+}
+ .mg-left-20 {
+     margin-left: 10px;
+}
+ .mg {
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ .mg0 {
+     margin-top: 10px;
+     margin-bottom: 0px;
+}
+ .top {
+     top: 30%;
+}
+ .align-top {
+     vertical-align: top;
+}
+ .float-right {
+     float: right;
+}
+ .float-left {
+     float: left;
+}
+ .auto {
+     margin-left: auto;
+     margin-right: auto;
+}
+ .left-auto {
+     margin-left: auto;
+}
+ .right-auto {
+     margin-right: auto;
+}
+ .center-absolute {
+     position: absolute;
+     right: 0;
+     left: 0;
+}
+ .vert-center {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ .center {
+     margin-right: auto;
+     margin-left: auto;
+     display: block;
+}
+ select {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     text-indent: 1px;
+     text-overflow: '';
+}
+ .nav-item {
+     display: inline-block;
+}
+ a:hover {
+     text-decoration: none;
+}
+ .titulos {
+     color: var(--red-portal-exito-texto);
+     font-family: "Poppins", sans-serif;
+     font-size: 1.5rem;
+     line-height: 2rem;
+     font-weight: 700;
+     margin-bottom: 0rem;
+     margin-top: 1rem;
+     padding: 0px;
+}
+.titulos a {
+    color: var(--red-portal-exito-texto);
+    text-decoration: underline;
+}
+.titulos a:hover {
+    opacity: .8;
+    transition: all .5s;
+}
+.sub-titulos {
+    color: var(--red-portal-exito-texto);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    margin-top: 4rem;
+}
+.descripcion {
+     color: var(--red-portal-exito-texto);
+     font-family: "Poppins", sans-serif;
+     font-size: 0.875rem;
+     line-height: 1.5rem;
+     font-weight: 400;
+     margin-bottom: 1rem;
+     padding: 0px;
+}
+ .newWidgetDefault .btn-widget:hover {
+     background: var(--red-portal-exito-hover) !important;
+}
+
+.carouselGeneral .slide.middle {
+    justify-content: center;
+}
+/*--------------------------------------------------------------------------------------*/
+/*----------------------------------PAGINA DE EDICION-----------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+.dnnEditState table.dnnGrid {
+    font-size: .7rem;
+}
+
+.dnnEditState div.dnnFormAndList {
+    overflow: scroll;
+    max-height: 500px;
+}
+
+.dnnEditState .dnnFormAndList .dnnGridHeader th {
+    padding: 5px;
+    background: var(--red-portal-exito);
+    color: white;
+}
+
+.dnnEditState .dnnFormAndList .dnnGridHeader th a {
+    color: white;
+}
+
+.dnnEditState tr.dnnGridItem td, tr.dnnGridAltItem td {
+    padding: 5px;
+}
+.dnnEditState div#dnn_widgetPane {
+    width: 100%;
+}
+/*--------------------------------------------------------------------------------------*/
+/*----------------------------------OCULTAR ELEMENTOS-----------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+.contenedor-page {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 36px;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*-----------------------------------ESTILOS DNN----------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+
+.dnnFormMessage.dnnFormValidationSummary ul li {
+    font-size: 0;
+}
+
+.dnnFormMessage.dnnFormValidationSummary ul li b {
+    font-size: .8rem;
+}
+
+.dnnFormMessage.dnnFormValidationSummary {
+    padding: 20px;
+    background: var(--red-portal-exito);
+    display: none;
+}
+.dnnFormMessage.dnnFormValidationSummary ul {
+    padding: 0px !important;
+}
+.dnnEditState .actionMenu {
+    z-index: 9999999999999999999999999999999;
+}
+
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------
+-------------------------------------------MOUSE ANIMATION-----------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+.mouse {
+     height: 40px;
+     width: 40px;
+     border-radius: 50px;
+     border: 2px solid var(--red-portal-exito);
+     margin: 0px auto;
+}
+ .mouse:before {
+     display: block;
+     height: 8px;
+     width: 2px;
+     margin:10px auto;
+     background: var(--red-portal-exito);
+     position: relative;
+     -webkit-animation: a 1.5s infinite;
+     animation: a 1.5s infinite;
+}
+ .arrow-scroll {
+     width: 35px;
+     margin-top: 10px;
+}
+ .arrow-scroll > span,  .arrow-scroll > div{
+     font-family: Arial, sans-serif;
+     display: block;
+     width: 13px;
+     height: 13px;
+     -webkit-transform: rotate45deg);
+     transform: rotate(45deg);
+     border-right: 2px solid var(--red-portal-exito);
+     border-bottom: 2px solid var(--red-portal-exito);
+     margin: 2px auto 0px;
+     -webkit-animation: b 1s infinite;
+     animation: b 1s infinite;
+}
+ .arrow-scroll > span:first-child, .arrow-scroll > div:first-child{
+     -webkit-animation-delay: 0.1s;
+     animation-delay: 0.1s;
+}
+ .arrow-scroll > span:last-child, .arrow-scroll > div:last-child {
+     -webkit-animation-delay: 0.3s;
+     animation-delay: 0.3s;
+}
+ @-webkit-keyframes a {
+     0% {
+         opacity: 1;
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+    }
+     100% {
+         opacity: 0;
+         -webkit-transform: translateY(8px);
+         transform: translateY(8px);
+    }
+}
+ @keyframes a {
+     0% {
+         opacity: 1;
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+    }
+     100% {
+         opacity: 0;
+         -webkit-transform: translateY(8px);
+         transform: translateY(8px);
+    }
+}
+ @-webkit-keyframes b {
+     0% {
+         opacity: 0;
+    }
+     50% {
+         opacity: 0.5;
+    }
+     100% {
+         opacity: 1;
+    }
+}
+ @keyframes b {
+     0% {
+         opacity: 0;
+    }
+     50% {
+         opacity: 0.5;
+    }
+     100% {
+         opacity: 1;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------BANNER PRINCIPAL------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+#banner .rotator .frame {
+     position: relative;
+}
+#banner .rotator .frame .back {
+     width: 100%;
+     margin: 0;
+     height: 90vh;
+}  
+#banner {
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: -18px;
+    max-width: 1250px;
+}
+body.dnnEditState #banner {
+    z-index: 0;
+}
+#banner.quitar-margen{
+    margin-bottom: 0px;
+}
+div#banner-principal.sombra:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: .2;
+}
+div#banner-principal, .slide-initial {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 16px 16px;
+    overflow: hidden;
+}
+div#banner-principal.clip-mask {
+   object-fit: cover;
+}
+
+div#banner-principal.clip-mask:after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #ffffff14;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div#banner-principal.slide-banner-ciudades-destino .slick-list.draggable {
+    overflow-x: hidden;
+}
+div#banner-principal.avianca {
+    background: url(../img/aerolineas/BannerAviancaHome.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 62%;
+
+}
+.slick-dots li button:before {
+    display: none;
+}
+div.slide-banner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start !important;
+}
+
+div.slide-banner .slide-item {
+    flex: 0 0 100%;
+    position: relative;
+}
+div.slide-banner ul.slick-dots {
+    bottom: 15%;
+    z-index: 1;
+}
+
+div.slide-banner .slick-dots li {
+    background: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 12px;
+    height: 12px;
+}
+
+div.slide-banner .slick-dots li.slick-active {
+   background: white; 
+}
+
+div.slide-banner button.slick-arrow {
+    display: none !important;
+}
+
+div.slide-banner-circuitos {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start !important;
+}
+div.slide-banner-circuitos .slide-item img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+div.slide-banner-circuitos .slide-item {
+    flex: 0 0 50%;
+    position: relative;
+}
+div.slide-banner-circuitos ul.slick-dots {
+    bottom: 1%;
+    z-index: 1;
+}
+
+div.slide-banner-circuitos .slick-dots li {
+    background: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 12px;
+    height: 12px;
+}
+
+div.slide-banner-circuitos .slick-dots li.slick-active {
+   background: white; 
+}
+div.slide-banner-blog-destinos {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start !important;
+}
+div.slide-banner-blog-destinos .slide-item picture, div.slide-banner-blog-destinos .slide-item picture img, div.slide-banner-blog-destinos .slide-item picture source {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+div.slide-banner-blog-destinos .slide-item {
+    flex: 0 0 50%;
+    position: relative;
+}
+div.slide-banner-blog-destinos ul.slick-dots {
+    bottom: 1%;
+    z-index: 1;
+}
+
+div.slide-banner-blog-destinos .slick-dots li {
+    background: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 12px;
+    height: 12px;
+}
+
+div.slide-banner-blog-destinos .slick-dots li.slick-active {
+   background: white; 
+}
+div#banner-principal.slide-banner-ciudades-destino {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start !important;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+div#banner-principal.slide-banner-ciudades-destino button.slick-arrow {
+    top: calc(50% - 34px);
+}
+
+div.slide-banner-ciudades-destino .slick-dots li.slick-active {
+    background: var(--red-portal-exito);
+    border-color: var(--red-portal-exito);
+}
+div.slide-banner-ciudades-destino .slide-item {
+    flex: 0 0 calc(100% / 3);
+    position: relative;
+}
+div.slide-banner-ciudades-destino ul.slick-dots {
+    bottom: 0px;
+    z-index: 1;
+}
+
+div.slide-banner-ciudades-destino .slick-dots li {
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    width: 12px;
+    height: 12px;
+}
+
+div.slide-banner-ciudades-destino .slide-item img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+div.slide-banner-ciudades-destino .slide-item .linea span {
+    background: #ffffff;
+    font-size: 1.8rem;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    color: #9a9a9a;
+}
+
+div.slide-banner-ciudades-destino .slide-item .linea {
+    padding: 5px 10px;
+    position: relative;
+}
+
+div#banner-principal.slide-banner-ciudades-destino .slide-item .content-imagen {
+    width: calc(100% - 20px);
+    
+    position: relative;
+margin: 10px auto;}
+
+div.slide-banner-ciudades-destino .slide-item .linea:before {
+    content:" ";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: calc(50% - 0.5px);
+    left: 10px;
+    background: #e0e0e0;
+    z-index: -1;
+}
+
+div.slide-banner-ciudades-destino .slide-item .linea span[class*="icon-autos"] {
+    /* text-align: right; */
+    /* font-size: 1.8rem; */
+}
+
+div.slide-banner-ciudades-destino .slide-item .linea span[class*="icon-autos"]:before {
+    /* margin-left: 4px; */
+}
+
+div#banner-principal.slide-banner-ciudades-destino .slide-item .content-imagen h6 {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0px;
+    left: 11px;
+    color: white;
+    font-weight: bold;
+}
+
+div#banner-principal.slide-banner-ciudades-destino .slide-item .content-imagen:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    opacity: 0.5;
+    }
+
+div#banner-principal.avianca:before {
+    background: #191919;
+    opacity: .2;
+}
+div#banner-principal > img, div#banner-principal > picture, div#banner-principal > picture source, div#banner-principal > picture img{
+    width: 100%;
+    object-fit: cover;
+}
+div#banner-principal.clip-mask img, div#banner-principal > picture, div#banner-principal > picture source, div#banner-principal > picture img {
+    height: 240px;
+}
+div#banner-principal img.banner-movil, div#banner-principal > picture.banner-movil, div#banner-principal > picture.banner-movil source, div#banner-principal > picture.banner-movil img {
+    object-fit: cover;
+}
+div#banner-principal.clip-mask img.banner-movil, div#banner-principal > picture.banner-movil, div#banner-principal > picture.banner-movil source, div#banner-principal > picture.banner-movil img{
+    height: 200px;
+}
+/*div#banner-principal.hoteles {
+    background: url(../img/banner-hoteles.jpg) no-repeat center center;
+    background-size: cover !important;
+}
+div#banner-principal.carros {
+    background: url(/Portals/1/Skins/renovacion/img/banner-autos.jpg) no-repeat center center;
+    background-size: cover;
+}
+div#banner-principal.paquetes{
+    background: url(../img/banner-paquetes.jpg) no-repeat center center;
+    background: url(../img/banner-paquetes-1.jpg) no-repeat center 88%;
+}
+div#banner-principal.actividades{
+    background: url(../img/banner-actividades.jpg) no-repeat center center;
+    background-size: cover;
+}*/
+div#banner-principal.hoteles.sub-hoteles {
+    max-height: 400px;
+}
+div#banner-principal.hoteles.sub-hoteles .logotipo {
+    z-index: 1;
+    position: absolute;
+    max-width: 250px;
+    width: 90%;
+    bottom: 0px;
+    left: 50%;
+    background: white;
+    padding: 20px 20px 10px 20px;
+    transform: translateX(-50%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div#banner-principal.hoteles.sub-hoteles .logotipo img {
+    width: 100%;
+}
+div#banner-principal.slider {
+    max-height: none !important;
+    height: auto;
+    max-width: 1500px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    background: white !important;
+}
+div#banner-principal.slider .contenendor-slider a, div#banner-principal.slider .contenendor-slider a img {
+    width: 100%;
+    display: block;
+}
+div#banner-principal.slider .contenendor-slider .slick-list.draggable {
+    padding: 0px !important;
+}
+div#banner-principal.slider .contenendor-slider {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+div#banner-principal.slider .contenendor-slider a {
+    flex: 0 0 100%;
+}
+
+div#banner-principal.slider .contenendor-slider a img {
+    height: 100%;
+    object-fit: cover;
+}
+#banner .rotator .frame .descrip {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0px auto;
+    z-index: 1;
+}
+#banner .rotator .frame .descrip h2 {
+     color: #fff;
+     font-family: "Poppins", sans-serif;
+         font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+     margin-bottom: 0.9375rem;
+     text-align: center;
+     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#banner .rotator .frame .descrip h1 span {
+     font-size: 2.5rem;
+}
+#banner .rotator .frame .descrip h1 {
+     color: #fff;
+     font-family: "Poppins", sans-serif;
+     font-size: 2rem;
+     font-weight: 300;
+     line-height: 1;
+     text-align: center;
+     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+#banner .rotator .frame .descrip p {
+     color: #fff;
+     font-family: "Poppins", sans-serif;
+     font-size: 1.375rem;
+     line-height: 1;
+     text-shadow: 2px 2px 0 rgba(29, 29, 29, 0.5);
+}
+#banner .rotator .frame .descrip .btn-oferta {
+     width: 10rem;
+     height: 2.0625rem;
+     background: var(--red-portal-exito);
+     border: solid 1px var(--red-portal-exito);
+     border-radius: 1.25rem;
+     color: #fff;
+     display: block;
+     font-family: "Poppins", sans-serif;
+     font-size: 1.25rem;
+     line-height: 1.3;
+     margin-top: 1.5625rem;
+     text-align: center;
+     transition: ease-in-out .5s;
+}
+#banner .rotator .frame .descrip .btn-oferta:hover {
+     background: #fff;
+     color: var(--red-portal-exito);
+}
+#banner .rotator .frame .slide-down {
+     position: absolute;
+     bottom: 34px;
+     left: 50%;
+     transform: translateX(-50%);
+     cursor: pointer;
+}
+#banner .rotator .frame .slide-down .sld-dw {
+     width: 70px;
+    height: auto;
+    border-radius: 50px 50px 0px 0px;
+    background: white;
+    display: block;
+    padding: 15px 0px 12px 0px;
+}
+#banner .rotator .frame .slide-down .sld-dw span {
+     display: block;
+     line-height: 3.125rem;
+     text-align: center;
+}
+#banner .rotator .frame h3 {
+     position: absolute;
+     left: 50%;
+     top: 15%;
+     transform: translateX(-50%);
+     color: #fff;
+     font-size: 1.875rem;
+     font-weight: 700;
+     text-shadow: 2px 2px 0 var(--red-portal-exito-texto);
+}
+#banner .rotator button.slick-prev {
+     left: 2%;
+}
+#banner .rotator button.slick-next {
+     right: 2%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------
+----------------------------------------------------- CHAT --------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+iframe#frameChatWolkvox {
+    height: 550px !important;
+    z-index: 9991 !important;
+    right: 0px !important;
+}
+iframe#frameChatWolkvox.chatCerrado, iframe#frameChatWolkvox + iframe{
+  display: none !important;
+}
+.cerrarChat {
+    position: fixed;
+    width: 40px;
+    height: 35px;
+    background: black;
+    right: 12px;
+    bottom: 523px;
+    z-index: 9999999999;
+    display: none;
+}
+.cerrarChat:before {
+    content: " ";
+    width: 20px;
+    height: 4px;
+    background: white;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    border-radius: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------FLECHAS DE CARROUSEL--------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+ button.slick-arrow {
+     border: none;
+     border-radius: 50%;
+     color: #fff;
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     transition: ease-in-out .5s;
+     z-index: 1;
+     background-color: #fff !important;
+     box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+
+
+ button.slick-arrow:hover {
+     background: white;
+     color: var(--red-portal-exito);
+     border-color: transparent;
+}
+ button.slick-prev.slick-arrow:before, button.slick-prev.slick-arrow:hover:before {
+     font-family: 'icomoon' !important;
+     content: "\e843";
+     font-size: 1.5rem;
+     font-style: normal;
+     font-weight: 900;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     color: var(--red-portal-exito);
+     position: absolute;
+     top: 50%;
+     left: 19%;
+     opacity: 1;
+     transform: translateY(-50%);
+}
+ button.slick-next.slick-arrow:before, button.slick-next.slick-arrow:hover:before {
+     font-family: 'icomoon' !important;
+     content: "\e844";
+     font-size: 1.5rem;
+     font-style: normal;
+     font-weight: 900;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     color: var(--red-portal-exito);
+     position: absolute;
+     top: 50%;
+     right: 17%;
+     opacity: 1;
+     transform: translateY(-50%);
+}
+ button.slick-arrow span {
+     font-size: 0.875rem;
+}
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------OFERTAS---------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+#ofertas .destacado .logo-aerolinea {
+     height: 40px;
+     position: absolute;
+     right: 38px;
+     bottom: 0px;
+}
+section#ofertas > .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+section#ofertas > .container-fluid > div.row {
+    margin: 0px;
+}
+ button.slick-arrow.slick-prev {
+     left: -14px;
+}
+ button.slick-arrow.slick-next{
+     right: -14px;
+}
+ #ofertas .destacado .logo-aerolinea img{
+     height: 40px;
+     width: auto;
+}
+ #ofertas a.destacado.version2 h4 {
+     font-size: 1.5rem;
+     line-height: 1.5rem;
+     text-align: left;
+     margin-bottom: .5rem;
+}
+ #ofertas a.destacado.version2 p {
+     text-align: left;
+     padding: 0 1.5rem;
+     font-size: 1rem;
+}
+ #ofertas.hoteles {
+     margin: 0px auto;
+     padding: 0;
+}
+
+ #ofertas.hoteles .destacado.hotel{
+     box-shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+     height: 14.6rem;
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     margin-bottom: 10px;
+}
+#ofertas.hoteles .destacado a{
+    height: 100%;
+}
+ #ofertas.hoteles .destacado img {
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+}
+ #ofertas.hoteles .destacado.hotel img {
+     object-fit: cover;
+     width: 100%;
+     height: 15rem;
+}
+ #ofertas.hoteles .destacado .top {
+     width: 100%;
+     position: absolute;
+     top: 5%;
+     max-width: 360px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+ #ofertas.hoteles .destacado .top .recuadro-texto {
+     color: white;
+     font-size: 1.2rem;
+     line-height: 1.4rem;
+     text-align: center;
+     position: relative;
+     text-shadow: -2px 2px 0 rgb(0 0 0 / 20%);
+}
+ #ofertas.hoteles .destacado .bottom .recuadro-texto {
+     color: white;
+     padding: 20px;
+     background: var(--red-portal-exito);
+     text-align: center;
+     display: inline-block;
+     font-size: 1rem;
+     position: relative;
+     left: 50%;
+     bottom: 50px;
+     transform: translateX(-50%);
+     box-shadow: -2px 2px 0 rgb(0 0 0 / 20%);
+}
+ #ofertas.hoteles .destacado .top h4 {
+     color: #fff;
+     font-size: 2rem;
+     font-weight: 700;
+     line-height: 2rem;
+     margin-bottom: 0.875rem;
+     text-align: center;
+     padding: 0 1.5rem;
+     text-shadow: -2px 2px 0 rgb(0 0 0 / 20%);
+}
+ #ofertas.hoteles .destacado .brand {
+     position: absolute;
+     height: 40px;
+     width: auto;
+     bottom: 0;
+     right: 39px;
+     background: #fbfbfb;
+}
+ #ofertas.hoteles .destacado .brand img{
+     height: auto !important;
+     width: 166px;
+}
+ #ofertas.hoteles .destacado .top p {
+     color: #fff;
+     font-size: 1.125rem;
+     font-weight: 400;
+     line-height: 1.4rem;
+     padding: 0 0.625rem;
+     text-align: center;
+}
+ #ofertas.hoteles .destacado .bottom {
+     width: calc(100% - 40px);
+     position: absolute;
+     bottom: 20px;
+     left: 20px;
+}
+ #ofertas.hoteles .destacado .bottom p {
+     color: #fff;
+     font-size: .8rem;
+     font-weight: 500;
+     line-height: 1;
+     margin-bottom: 0.625rem;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas.hoteles .destacado .bottom h3 {
+     color: #fff;
+     font-size: 3.125rem;
+     font-weight: 700;
+     line-height: 1;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas.hoteles .destacado .bottom h3.blanco {
+     color: #fff;
+     font-size: 1.8rem;
+     font-weight: 700;
+     line-height: 1;
+     text-align: left;
+     margin-left: 8px;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas.paquetes .destacado .bottom h3.blanco {
+     color: #fff;
+     font-size: 1.8rem;
+     font-weight: 700;
+     line-height: 1;
+     text-align: left;
+     margin-left: 8px;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas.hoteles .destacado .bottom h3.negro {
+     color: #333;
+     font-size: 1.8rem;
+     font-weight: 700;
+     line-height: 1;
+     text-align: left;
+     margin-left: 8px;
+}
+ #ofertas.hoteles .destacado .recuadro {
+     width: 2.5rem;
+     height: 2.5rem;
+     background: var(--red-portal-exito);
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     line-height: 40px;
+     text-align: center;
+}
+ #ofertas.hoteles .destacado .recuadro span {
+     display: block;
+     color: #fff;
+     margin-top: 12px;
+}
+
+ #ofertas {
+     margin: 0px auto;
+     padding: 0;
+}
+.destacado-elemento .container-fluid {
+    height: 100%;
+    padding: 0px;
+}
+#ofertas .destacado-elemento > .container-fluid.pad-0 > .row {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0px;
+    display: block;
+}
+ #ofertas .destacado-contenedor-elemento {
+     position: relative;
+     line-height: 0;
+     border-radius: 8px;
+     overflow: hidden;
+     height: 100%;
+     margin: 0px;
+     box-shadow: 0px 0px 34px 0px rgb(52 99 188 / 7%);
+}
+#ofertas .destacado-contenedor-elemento a {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.destacado-elemento {
+    padding: 0px 10px;
+}
+.destacados-home .pad-10 {
+    padding: 0px 10px;
+}
+.destacados-home .pad-8 {
+    padding: 0px 8px;
+}
+
+
+#ofertas .destacado-elemento > .container-fluid.pad-0 > .row div.clear {
+    display: none;
+}
+#ofertas .destacado-contenedor-elemento a {
+    cursor: pointer;
+    box-shadow: 20px;
+}
+ #ofertas .destacado-contenedor-elemento img{
+    width: 100%;
+    border-radius: 8px;
+}
+#ofertas .destacado-contenedor-elemento img.efecto-hover {
+    object-fit: cover;
+    object-position: center;
+    transition: all .5s;
+    box-shadow: rgb(0 0 0 / 97%) 0px 2px 10px;
+}
+
+#ofertas .destacado-contenedor-elemento img.efecto-hover:hover {
+    width: calc(100% + 26px);
+    object-position: -13px 50%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 10px;
+}
+#ofertas .destacado-contenedor-elemento.height-auto picture.desktop source, #ofertas .destacado-contenedor-elemento.height-auto picture.desktop img {
+    height: auto !important;
+    width: 100%;
+    object-position: center;
+}
+ #ofertas.hoteles .destacado.grande img, #ofertas.paquetes .destacado.grande img{
+    min-height: 28rem;
+    height: 100%;
+}
+ #ofertas .destacado.version2 img {
+     height: 12.25rem;
+}
+ #ofertas .destacado.version2 .top {
+     top: 50%;
+     transform: translateY(-50%);
+}
+ #ofertas .destacado > div.destacado.sombra:before {
+     content: " ";
+     width: 100%;
+     height: 100%;
+     background: #060606;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     opacity: 0.3;
+}
+#ofertas .destacado.quitar-sombra:before {
+    display: none;
+}
+ #ofertas .destacado > div.destacado.imagen:before {
+     display: none;
+}
+ #ofertas .destacado .top {
+     width: 100%;
+     position: absolute;
+     top: 5%;
+}
+ #ofertas .destacado .top h4 {
+     color: #fff;
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1;
+     margin-bottom: 0.875rem;
+     text-align: center;
+     padding: 0 1.5rem;
+}
+ #ofertas .destacado .top p {
+     color: #fff;
+     font-size: 1.125rem;
+     font-weight: 400;
+     line-height: 1.4rem;
+     padding: 0 0.625rem;
+     text-align: center;
+}
+ #ofertas .destacado .bottom {
+     width: 100%;
+     position: absolute;
+     bottom: 10%;
+}
+ #ofertas .destacado .top{
+     width: 100%;
+     position: absolute;
+     top: 10%;
+}
+ #ofertas .destacado .bottom p {
+     color: #fff;
+     font-size: 1.375rem;
+     font-weight: 500;
+     line-height: 1;
+     margin-bottom: 0.625rem;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas .destacado .bottom h3, #ofertas .destacado .top h3 {
+     color: #fff;
+     font-size: 3.125rem;
+     font-weight: 700;
+     line-height: 1;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #ofertas .destacado .recuadro {
+     width: 2.5rem;
+     height: 2.5rem;
+     background: var(--red-portal-exito);
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     line-height: 40px;
+     text-align: center;
+}
+ #ofertas .destacado .recuadro span {
+     display: block;
+     color: #fff;
+     margin-top: 12px;
+}
+
+
+#destacados {
+     margin:0;
+     padding:0;
+     margin-top: 30px;
+}
+#destacados h3.blanco {
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-shadow: -2px 2px 0 rgb(0 0 0 / 20%);
+}
+
+#destacados .destacado .top {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+}
+
+#destacados .destacado img {
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+}
+
+#destacados .destacado .recuadro {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--red-portal-exito);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+#destacados a.destacado.paquetes {
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+    height: 15rem;
+    display: block;
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 18rem;
+}
+
+#destacados .destacado .recuadro span.icon-plus {
+    display: block;
+    color: #fff;
+    margin-top: 12px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------CARRUSELES PRINCICPALES-----------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+div#airhotel #habitacionesPopPaquetes .input-group input, div#aircar #habitacionesPopPaquetes  .input-group input {
+    height: 24px !important;
+}
+.btn-danger.disabled, .btn-danger:disabled, .btn-danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-danger.dropdown-toggle:focus{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+div#airhotel #habitacionesPopPaquetes .input-group, div#aircar #habitacionesPopPaquetes .input-group {
+    margin-top: 6px;
+}
+.newWidgetDefault .btn-danger--border {
+    border: none;
+}
+
+div#habitacionesPopPaquetes > .row.mt-2 {
+    margin: 0px;
+}
+article#suscripciones.collapse.show {
+    display: block !important;
+}
+article#suscripciones {
+    font-family: "Poppins", Helvetica, sans-serif !important;
+}
+select.ddlAirHotelChildrensAges.form-control.mr-1, select.ddlHotelChildrensAges.form-control.mr-1{
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    appearance: auto;
+}
+#hoteles .item-hotel, #destacados-hoteles .item-hotel{
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     margin: 0 4px 8px 4px;
+}
+ #destacados-hoteles .item-hotel img{
+     height: 15rem;
+}
+ #destacados-hoteles .item-hotel {
+     padding: 0px;
+}
+ #destacados-hoteles .item-hotel p.texto {
+     position: absolute;
+     top: 50%;
+     left: 5%;
+     width: 90%;
+     color: white;
+     font-size: 1.6rem;
+     line-height: 1.8rem;
+     font-weight: bold;
+     text-align: center;
+     transform: translateY(-50%);
+     text-shadow: 2px 2px 2px #000000ad;
+}
+ #destacados-hoteles .item-hotel:before {
+     content: " ";
+     width: 100%;
+     height: 100%;
+     background: #0000003d;
+     position: absolute;
+     left: 0px;
+    top: 0px;
+     z-index: 1;
+}
+ #destacados-hoteles .item-hotel.sin-sombra:before{
+     display: none !important;
+}
+ #destacados-hoteles .item-hotel p.texto, #hoteles .item-hotel .brand, #destacados-hoteles .brand, #producto .producto .recuadro, #hoteles .item-hotel .recuadro, section#destacados-hoteles .recuadro {
+     z-index: 2;
+}
+
+ #hoteles .item-hotel > img, #destacados-hoteles .item-hotel img{
+     height: auto;
+     width: 100%;
+     transition:all .5s;
+     z-index: 0;
+}
+ #hoteles .item-hotel:hover > img, #destacados-hoteles .item-hotel:hover > img{
+     transform: scale(1.05);
+     z-index: -1;
+}
+ #hoteles .item-hotel .brand, #destacados-hoteles .brand{
+     position: absolute;
+     height: 40px;
+     width: 120px;
+     bottom: 0;
+     right: 39px;
+}
+ #hoteles .item-hotel .brand img, #destacados-hoteles .brand img{
+     height: 40px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------TRAVELS HOTELES-----------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+#travelers .type-travel{
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     margin: 0 8px 8px 0;
+}
+ #travelers .type-travel:before{
+     content:" ";
+     width:100%;
+     height:100%;
+     background:black;
+     position:absolute;
+     left:0px;
+     top:0px;
+     opacity:0.2;
+}
+ #travelers .type-travel img{
+     object-fit: cover;
+     width: 100%;
+     height: 17rem;
+}
+ #travelers .type-travel h4{
+     width:calc(100% - 60px);
+     text-align:center;
+     color: #fff;
+     font-size: 1.4rem;
+     font-weight: bold;
+     line-height: 1.5rem;
+     text-align: center;
+    /*text-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    */
+     position: absolute;
+     bottom: 30px;
+     left: 30px;
+}
+ div#carousel-traverls .col-6.pad-0 .col-6.col-md-6.pad-0 {
+     display: inline-block;
+     float: left;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------DESTACADOS DE LUGARES-------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+ #destacados .lugares {
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, .2);
+}
+ #destacados .lugares img {
+     object-fit: cover;
+     height: 27rem;
+     transition: transform .8s ease;
+}
+ #destacados .lugares .oscuro {
+     background: rgba(0, 0, 0, 0.2);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+}
+ #destacados .lugares .detail {
+     position: absolute;
+     top: auto;
+     left: 0;
+     right: 0;
+     bottom: 35px;
+}
+ #destacados .lugares .detail h4 {
+     color: #fff;
+     font-size: 1.5625rem;
+     font-weight: 700;
+     line-height: 1;
+     margin-bottom: 0.625rem;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #destacados .lugares .detail p {
+     color: #fff;
+     font-size: 3rem;
+     font-weight: 700;
+     line-height: 3rem;
+     text-align: center;
+     text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ #destacados .lugares .detail p span {
+     font-size: 1rem;
+     font-weight: 500;
+     line-height: 1rem;
+     display: block;
+     margin-bottom: 10px;
+}
+ #destacados .lugares .recuadro {
+     width: 2.5rem;
+     height: 2.5rem;
+     background: var(--red-portal-exito);
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     line-height: 40px;
+     text-align: center;
+}
+ #destacados .lugares .recuadro span {
+     color: #fff;
+     margin-top: 12px;
+     display: block;
+}
+ #destacados .lugares:hover img {
+     transform: scale(1.2);
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------CARDS CIUDADES--------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+.slide-ciudades, .slide-hoteles-cadenas{
+    display: flex;
+        overflow-x: hidden;
+}
+.slide-ciudades > a, .slide-hoteles-cadenas > a {
+    flex: 0 0 calc((100% - 30px) / 3);
+}
+.slide-hoteles-cadenas .slick-list.draggable {
+    padding: 0px !important;
+}
+.slide-ciudades .card-ciudades {
+    margin: 10px 5px 10px 5px;
+    padding: 0px;
+    height: 18rem;
+    position: relative;
+    display: block;
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 10%);
+}
+.slide-ciudades .card-ciudades img {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    transition: all .5s;
+}
+.slide-ciudades .card-ciudades:hover img {
+    transform: scale(1.05);
+}
+.slide-ciudades .card-ciudades .recuadro {
+    position: absolute;
+    padding: 13px 20px;
+    right: 0px;
+    bottom: 0px;
+    background: var(--red-portal-exito);
+    color: white;
+    font-size: .8rem;
+    border-radius: 6px;
+    font-family: "Poppins";
+}
+.slide-ciudades .card-ciudades:hover .recuadro{
+    background: var(--red-portal-exito-hover);
+}
+.slide-ciudades .card-ciudades .recuadro span.icon-chevron-right {
+    font-size: .8rem;
+    margin-left: 8px;
+}
+.slide-ciudades .slick-list.draggable {
+    padding: 0px !important;
+}
+.slide-ciudades .slick-prev, .slide-hoteles-cadenas .slick-prev{
+    left: 10px;
+}
+
+.slide-ciudades .slick-next, .slide-hoteles-cadenas .slick-next{
+    right: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------FORMULARIO DE SUSCRIPCION---------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+ #suscripcion {
+    /*background: url(../img/boletin.jpg) no-repeat;*/
+    background: #efefef;
+    background-size: cover;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    color: #000;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+ #suscripcion h3 {
+     color: var(--red-portal-exito-texto);
+     font-size: 1.625rem;
+     line-height: 2.2rem;
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 0.75rem;
+}
+img.d-none.d-xl-block.w-100.imagen-suscripcion {
+    opacity: .5;
+}
+ #suscripcion .container-fluid {
+     max-width: 90%;
+}
+ #suscripcion .FormSuscribirse input[type="text"] {
+         width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
+    font-size: 0.8rem;
+    border: 1px solid white;
+    color: #616161;
+    appearance: none;
+    background: white;
+    box-shadow: none;
+    border-radius: 8px;
+
+}
+ #suscripcion .FormSuscribirse .dnnFormItem {
+     width: 33.333333%;
+     display: inline-block;
+     padding: .5rem;
+}
+ #suscripcion .FormSuscribirse .dnnFormLabelWithoutHelp {
+     display: none;
+}
+ #suscripcion .FormSuscribirse .dnnFormItem:last-child {
+     width: 100%;
+     position: absolute;
+     left: 0px;
+     bottom: -9px;
+}
+ #suscripcion .FormSuscribirse .dnnFormAndList .dnnForm.fnlForm.dnnClear > div{
+     width: 75%;
+     display: inline-block;
+     float: left;
+}
+ #suscripcion .FormSuscribirse ul.dnnActions.dnnClear {
+     padding-top: 0px;
+     display: inline-block;
+     width: 25%;
+}
+ #suscripcion .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(1) {
+     width: 100%;
+}
+ #suscripcion .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(1) a{
+         padding: 14px;
+    border-radius: 3px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+    margin-top: 8px;
+    background: var(--red-portal-exito);
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+ #suscripcion .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(1) a:hover{
+     background: var(--red-portal-exito-hover);
+}
+ #suscripcion .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(2) {
+     display: none;
+}
+ #suscripcion .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp {
+     display: inline-block;
+     width: auto;
+     margin-top: 3px;
+     font-size: 1rem;
+}
+ #suscripcion .FormSuscribirse .dnnFormItem:last-child > span {
+     display: inline-block;
+     float: left;
+     margin-left: 10px;
+}
+ #suscripcion .FormSuscribirse .dnnFormItem:last-child > span .mark {
+     background: none;
+     margin: 0px;
+     padding: 0px;
+     width: 16px;
+     height: 16px;
+}
+ #suscripcion .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp label.dnnBoxLabel span, #suscripcion .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp label.dnnBoxLabel span a {
+     font-size: 0.6rem;
+}
+ #suscripcion .Fo#suscripcion rmSuscribirse .dnnFormItem:last-child > span .mark img {
+     display: block;
+}
+ #suscripcion .DnnModule-DNN_UserDefinedTable:nth-child(1) {
+     display: block !important;
+}
+ #suscripcion input.field {
+     background: #fff;
+     border: none;
+     border-radius: 3px;
+     width: 100%;
+     width: 100%;
+     height: 4.1875rem;
+     margin-top: 1.875rem;
+     padding: 0 0.5rem;
+}
+ #suscripcion a {
+     color: #fff;
+     text-decoration: underline;
+}
+ #suscripcion .enviar {
+     width: 13.375rem;
+     height: 4.1875rem;
+     background: var(--red-portal-exito);
+     border: solid 1px var(--red-portal-exito);
+     border-radius: 0.1875rem;
+     color: #fff;
+     cursor: pointer;
+     display: block;
+     margin-top: 1.875rem;
+}
+.carouselGeneral .row, .carouselGeneral .row .collapse, .carouselGeneral .row .collapse .slide, .carouselGeneral .row .collapse .slide .slick-track {
+    height: 100%;
+}
+.collapse.show {
+     height: auto;
+     padding: 0;
+}
+ span.country-name {
+     color: #676767 !important;
+}
+ a.link-suscribete {
+    color: #000 !important;
+    text-decoration: underline;
+}
+.slide.carros .card .name-hotel {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+        line-height: 1.8rem;
+}
+.slide.carros .card .detail .days {
+    display: none;
+}
+a.destacado, a.destacado-contenedor{
+    position: relative;
+}
+
+.btnDestacados {
+    background: var(--red-portal-exito);
+    border: solid 1px var(--red-portal-exito);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: .8rem;
+    position: absolute;
+    padding: 0.4rem .8em;
+    font-family: "Poppins";
+}
+.btnDestacados:hover {
+    background: var(--red-portal-exito-hover);
+    border-color: var(--red-portal-exito-hover);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------
+--------------------------------------------------PAGOS--------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+
+div#pagos .row .col img, div#pagos .row .col source, div#pagos .row .col picture {
+    width: 100%;
+}
+div#pagos {
+     margin-bottom: 3.125rem;
+}
+div#pagos .titulos {
+     font-size: 1.5625rem !important;
+}
+div#pagos .row .col p {font-size: .7rem;line-height: 1.2;font-family: "Poppins", sans-serif;text-align: center;margin: 0px;}
+/*-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------PRODUCTO------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+ #producto {
+     padding: 0px;
+}
+ #producto .destacado .producto .detail {
+     padding: 0 1.5625rem;
+     position: absolute;
+     top: auto;
+     left: 0;
+     right: 0;
+     bottom: 35px;
+}
+ #producto .destacado .producto .detail h4 {
+     color: #fff;
+     font-size: 1.8125rem;
+     font-weight: 700;
+     line-height: 1.3;
+     margin-bottom: 0.625rem;
+     text-align: left;
+}
+ #producto .destacado .producto .detail p {
+     color: #fff;
+     font-size: 1.125rem;
+     font-weight: 400;
+     line-height: 1.2;
+     margin-bottom: 1.25rem;
+     text-align: left;
+}
+ #producto .btnn {
+     width: 100%;
+     max-width: 16.25rem;
+     height: 40px;
+     background: var(--red-portal-exito);
+     border: solid 1px var(--red-portal-exito);
+     border-radius: 8px;
+     color: #fff !important;
+     display: block;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 40px;
+     margin: 0 auto;
+     text-align: center;
+     transition: ease-in-out .5s;
+     font-family: "Poppins", Helvetica, sans-serif;
+}
+ #producto .btnn:hover {
+     background: var(--red-portal-exito-hover);
+     color: white !important;
+}
+ #producto .producto {
+     height: 25rem;
+     cursor: pointer;
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     box-shadow: 0 0px 10px rgb(0 0 0 / 10%);
+     border-radius: 15px;
+}
+ #producto .producto .recuadro, #hoteles .item-hotel .recuadro, section#destacados-hoteles .recuadro{
+     width: 2.5rem;
+     height: 2.5rem;
+     background: var(--red-portal-exito);
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     line-height: 40px;
+     text-align: center;
+}
+ #producto .producto .recuadro span.icon-plus, #hoteles .item-hotel .recuadro span.icon-plus, section#destacados-hoteles .recuadro span.icon-plus{
+     color: #fff;
+     margin-top: 12px;
+     display: block;
+}
+#producto .producto img, #producto .producto picture, #producto .producto picture img {
+     object-fit: cover;
+     height: 26rem;
+     width: 100%;
+}
+ #producto .producto h4 {
+     color: #fff;
+     font-size: 1.8125rem;
+     font-weight: 700;
+     line-height: 1.3;
+     margin-bottom: 0.625rem;
+     text-align: left;
+}
+ #producto .producto .oscuro {
+     background: rgba(0, 0, 0, 0.3);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+}
+ #producto .producto .detail {
+     padding: 0 1.875rem;
+     position: absolute;
+     top: auto;
+     left: 0;
+     right: 0;
+     bottom: 35px;
+}
+ #producto .producto .detail p {
+     color: #fff;
+     font-size: 1.1rem;
+     font-weight: 400;
+     line-height: 1.5rem;
+     text-align: center;
+}
+ #producto .producto .detail p strong {
+     text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------VIAJEROS------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------*/
+ #viajeros .elegir {
+     height: auto;
+     display: block;
+     position: relative;
+     line-height: 0;
+     overflow: hidden;
+     /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);*/
+}
+ #viajeros .elegir img {
+     height: 30rem;
+     object-fit: cover;
+     width: 100%;
+}
+ #viajeros .elegir .oscuro {
+         width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: black;
+    opacity: .35;
+}
+ /*#viajeros .elegir .info {
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     transform: translateY(-50%);
+}*/
+div#viajeros .container-fluid.pad-0 > .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ #viajeros .elegir .info h3 {
+     color: var(--red-portal-exito-texto);
+     font-size: 2.625rem;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 0.625rem;
+}
+ #viajeros .elegir .info p {
+     color: var(--red-portal-exito-texto);
+     font-size: 1.3125rem;
+     font-weight: 400;
+     line-height: 1.2;
+}
+ #viajeros #info .cuadro {
+     width: calc(100% - 22px);
+    height: auto;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    padding: 10px;
+    margin: 10px;
+    flex: 0 0 calc(25% - 22px);
+    border-radius: 15px;
+}
+ #viajeros #info .cuadro img, #viajeros #info .cuadro svg{
+     display: block;
+     margin: auto;
+     height: 4rem;
+}
+ #viajeros #info .cuadro h5 {
+     color: var(--red-portal-exito-texto);
+     font-size: 1.2rem;
+     font-weight: 700;
+     line-height: 1.3rem;
+     margin-top: 1.25rem;
+     text-align: center;
+}
+ #viajeros #info .cuadro h5 span {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+ #viajeros #info .cuadro .estrellas {
+     display: flex;
+     margin: 15px auto;
+     justify-content: center;
+}
+ #viajeros #info .cuadro .estrellas span {
+     color: #fee800;
+     font-size: 1.2rem;
+}
+ #viajeros #info .row > .col-6.col-md-6:nth-child(3) .cuadro img {
+     height: 3.3rem;
+}
+ #viajeros #info .row > .col-6.col-md-6:nth-child(4) .cuadro img {
+     height: 4.3rem;
+}
+ #viajeros #info .cuadro p {
+     color: var(--red-portal-exito-texto);
+     font-size: .9rem;
+     font-weight: 400;
+     line-height: 1.2;
+     margin-top: 1rem;
+     text-align: center;
+}
+
+
+
+
+.contenedor-page.full-width {
+    max-width: 100%;
+}
+
+/* ---------------------------- circuitos ---------------------------------  */
+
+.detalles-circuito span.content p {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: var(--red-portal-exito-texto);
+}
+
+.detalles-circuito > .row > div {
+    display: flex;
+    align-items: center;
+}
+
+.detalles-circuito > .row > div span[class*="icon-"] {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: var(--red-portal-exito-texto);
+}
+
+.detalles-circuito {
+    margin: 10px 0px 16px 0px;
+}
+ul.incluye-items, ul.no-incluye-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+ul.incluye-items.hoteles li {
+    align-content: center;
+    align-items: center;
+}
+
+ul.incluye-items.hoteles li p {
+    margin-bottom: 0px;
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--red-portal-exito-texto);
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+ul.incluye-items li p {
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+ul.incluye-items.hoteles li p span[class*="icon-stair"] {
+    color: #FEE800;
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 4px;
+    display: inline-block;
+    min-width: 0px;
+}
+ul.incluye-items li{
+    flex: 0 0 50%;
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+ul.no-incluye-items li:before {
+    content: "x";
+    color: var(--red-portal-exito);
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    left: -18px;
+    top: -3px;
+}
+
+ul.no-incluye-items li {
+    flex: 0 0 100%;
+    list-style: nonde;
+    display: flex;
+    position: relative;
+}
+ul.incluye-items li span {
+    margin-right: 10px;
+    font-size: 2.5rem;
+    min-width: 38px;
+    text-align: center;
+    line-height: 1;
+}
+ul.incluye-items li span[class*="icon-hotel"] {
+    line-height: .5;
+}
+
+ul.no-incluye-items li:before {
+    content: "x";
+    color: var(--red-portal-exito);
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    left: -18px;
+    top: -3px;
+}
+ul.incluye-items.util-viaje li {
+    flex: 0 0 100%;
+    position: relative;
+}
+
+ul.incluye-items.util-viaje {
+    margin-left: 0px;
+}
+
+ul.incluye-items.util-viaje span.fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+ul.incluye-items.util-viaje li p span {
+    color: #26d226;
+    font-size: 1rem;
+    min-width: 20px;
+}
+
+ul.incluye-items.util-viaje p {
+    display: flex;
+}
+
+
+div#pagos .container .row, div#pagos .container-fluid .row{flex-wrap: wrap;justify-content: center;}
+div#pagos .container .row div.col, div#pagos .container-fluid .row div.col{
+    width: calc(calc(100% - 100px) / 10);
+    flex: 0 0 calc(calc(100% - 100px) / 10);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    background: white;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+div#categoria-circuitos a img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all .3s;
+    filter: brightness(1.2);
+}
+
+div#categoria-circuitos a p {
+    text-align: center;
+    color: var(--red-portal-exito-texto);
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+
+div#categoria-circuitos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#categoria-circuitos > .row {
+    justify-content: center;
+}
+
+
+div#categoria-circuitos a:hover img {
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 30px;
+}
+
+
+
+.galerry.destinos.hoteles {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.galerry.destinos.hoteles picture, .galerry.destinos.hoteles picture source, .galerry.destinos.hoteles picture img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    /* height: 2rem; */
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+
+.galerry.destinos.hoteles > div {
+    padding: 10px;
+    flex: 0 0 calc(100% / 3);
+}
+
+.galerry.destinos.hoteles > div > picture {
+    margin-bottom: 20px;
+}
+
+.galerry.destinos.hoteles > div > picture:last-child {
+    margin-bottom: 0px;
+}
+
+.galerry.destinos.hoteles > div:nth-child(2n + 1) {
+    padding-top: 50px;
+}
+
+.galerry.destinos.hoteles picture source, .galerry.destinos.hoteles picture img {
+    max-height: 10rem;
+    object-fit: cover;
+    object-position: center;
+}
+.content-gallery {
+    align-content: center;
+    align-items: center;
+}
+.content-terminos-condiciones {
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------  */
+/* -------------------BLOG DESTINOS------------------------  */
+/* --------------------------------------------------------  */
+.content-mapa-blog-destinos .mapa-blog-destinos, .content-mapa-blog-destinos .mapa-blog-destinos source, .content-mapa-blog-destinos .mapa-blog-destinos img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.content-mapa-blog-destinos .mapa-blog-destinos {
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 19%);
+}
+div#mapa-blog-destino {
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 19%);
+    margin: 30px 0px;
+}
+.contenedor-page.menu-fixed{
+    background: white;
+}
+.datos-geograficos > .row > div > div, .datos-geograficos > .row > div div:not([id*="HtmlModule_lblContent_tb"]) {
+    height: 100%;
+    padding: 0px;
+    position: relative;
+}
+.datos-geograficos > .row > div div.clear {
+    height: auto;
+}
+.datos-geograficos > .row > div div .content-more-view {
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 19%);
+    margin: 00px 10px;
+    border-radius: 16px;
+}
+
+.datos-geograficos > .row > div > div .content-more-view i[class^="icon-"] {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #545454;
+}
+
+.datos-geograficos > .row > div > div .content-more-view  a {
+    color: #545454;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.datos-geograficos.destacados-home {
+    margin: 20px 0px;
+}
+
+.datos-geograficos > .row > div {
+    /* padding: 0px; */
+    margin: 0px;
+    position: relative;
+}
+.blog-destinos-content-que-hacer .titulos {
+    margin-top: 0px;
+}
+
+.blog-destinos-content-que-hacer i {
+    font-size: 3rem;
+    margin-left: -10px;
+    color: var(--red-portal-exito);
+}
+
+.blog-destinos-content-que-hacer {
+    padding: 20px;
+}
+
+.slide-actividades-blog-destinos .slide-item {
+    flex: 0 0 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.slide-actividades-blog-destinos .slide-item picture, .slide-actividades-blog-destinos .slide-item picture img, .slide-actividades-blog-destinos .slide-item picture source {
+   width: 100%;
+   border-radius: 8px;
+}
+
+.slide-actividades-blog-destinos .slide-item p {
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    padding: 50px 10px 20px 10px;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    width: calc(100% - 20px);
+    font-size: .7rem;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+    display: block;
+    text-align: center;
+}
+
+.slide-actividades-blog-destinos {
+    border-radius: 0px !important;
+    margin: 20px 0px !important;
+}
+.accordion.actividades {
+    width: 100%;
+}
+
+.accordion.actividades>.card>.card-header button {
+    padding: 15px 35px 15px 25px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #d8dbe2;
+}
+
+.accordion.actividades>.card {
+    border-radius: 0px;
+    margin: 0px 0px;
+}
+
+.accordion.actividades>.card>.card-header button span {
+    color: #585858;
+    font-size: 1.5rem;
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.accordion.actividades>.card>.card-header button[aria-expanded="true"] {
+    background: none;
+    color: #545454;
+    border-bottom: 1px solid var(--red-portal-exito);
+}
+
+.accordion.actividades>.card>.card-header button[aria-expanded="true"]:before {
+    color: #585858;
+}
+.slide-lugares-blog-destinos .slide-item {
+    flex: 0 0 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.blog-destinos.slide-lugares-blog-destinos {
+    border-radius: 0px;
+}
+
+.slide-lugares-blog-destinos .slide-item picture, .slide-lugares-blog-destinos .slide-item picture img, .slide-lugares-blog-destinos .slide-item picture source {
+    border-radius: 16px;
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide-lugares-blog-destinos p {
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    padding: 50px 10px 20px 10px;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    width: calc(100% - 40px);
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+    display: block;
+    text-align: center;
+}
+div#content-blog-destinos-lugares {
+    margin: 20px 0px;
+}
+
+div#content-blog-destinos-lugares .item {
+    padding: 10px 0px;
+    border-bottom: 1px solid #545454;
+}
+div#content-blog-destinos-lugares .item:last-child {
+    border-bottom: 0px;
+}
+div#content-blog-destinos-lugares .item h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #545454;
+}
+.content-blog-destions-comer {
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 20px;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 19%);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.content-blog-destions-comer > picture {
+    flex: 0 0 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content-blog-destions-comer > picture img, .content-blog-destions-comer > picture source {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content-blog-destions-comer > div {
+    flex: 0 0 calc(100% - 170px);
+    margin-left: 20px;
+}
+
+.content-blog-destions-comer > div .parrafo {
+    margin-bottom: 0px;
+}
+
+.content-blog-destions-comer > div h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #545454;
+}
+.blog-destinos-content-transporte-imagenes {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 0px;
+}
+
+.blog-destinos-content-transporte-imagenes > div {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+}
+
+.blog-destinos-content-transporte-imagenes > div picture, .blog-destinos-content-transporte-imagenes > div picture img, .blog-destinos-content-transporte-imagenes > div picture source {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-destinos-content-transporte-imagenes > div.imagen-1 picture {
+    max-width: 55%;
+}
+
+.blog-destinos-content-transporte-imagenes > div.imagen-2 picture {
+    width: 60%;
+}
+
+.blog-destinos-content-transporte-imagenes > div.imagen-2 {
+    justify-content: flex-end;
+    z-index: 2;
+    margin: -150px 0px -100px 0px;
+}
+
+.blog-destinos-content-transporte-imagenes > div.imagen-3 picture {
+    max-width: 55%;
+}
+.blog-destinos-content-transporte-imagenes > div picture {
+    box-shadow: 0px 11px 20px rgb(130 133 171 / 36%);
+}
+
+.blog-destinos-content-transporte-imagenes > div.imagen-3 {
+    z-index: 2;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
+     #producto .producto {
+         height: 22rem;
+    }
+     #producto .producto img, #producto .producto picture, #producto .producto picture img {
+         height: 100%;
+         transform: translateY(0);
+    }
+
+     #producto .destacado .producto .detail h4 {
+         font-size: 1.6875rem;
+    }
+
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+     .container {
+         max-width: 90%;
+    }
+
+
+     #viajeros #eligiendo .elegir img {
+         transform: translateY(0);
+         height: 100%;
+    }
+     #viajeros #info .cuadro h5 {
+         line-height: 1;
+         margin-top: 0.625rem;
+    }
+     #viajeros #info .cuadro p {
+         margin-top: 0.9375rem;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) {
+    .carouselGeneral .flights {
+        padding: 0px; 
+    }
+    #suscripcion .FormSuscribirse .dnnFormItem:nth-child(1) {
+        padding-left: 0px;
+    }
+
+    div#airhotel .col-12.col-md.bd-right .colWidget, div#aircar .col-12.col-md.bd-right .colWidget {
+         width: 50%;
+    }
+     section#producto .row > div {
+         -ms-flex: 0 0 22%;
+         flex: 0 0 22%;
+         max-width: 22%;
+    }
+     .btn-success.focus, .btn-success:focus, .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle{
+         box-shadow: none !important;
+         background: none !important;
+         border:none !important;
+    }
+     .vueloHotel{
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 10%;
+         flex: 0 0 10%;
+         max-width: 10%;
+    }
+     section#producto .row > div:nth-child(1) {
+         -ms-flex: 0 0 34%;
+         flex: 0 0 34%;
+         max-width: 34%;
+    }
+    
+    
+     
+    
+
+    button.btn.btn-select.form-control.form-control--small {
+        padding-left: 0px;
+    }
+
+    button.btn.btn-select.form-control.form-control--small, .input-group .form-control, .input-group .form-control::placeholder, .input-group .form-control::-webkit-input-placeholder, .habitacionesBox .input-group {
+        font-size: .7rem !important;
+      font-weight: 300 !important;
+    }
+
+
+    #ofertas #flights.completo .slick-list.draggable, #ofertas .flights.completo .slick-list.draggable {
+        padding: 0px 20px 0px 30px !important;
+            width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    div.menu-rapdio{
+        margin-top: 10px !important;
+    }
+    .titulos{
+        font-size: 1.6rem;
+    }
+    .sub-titulos{
+        font-size: 1.2rem;
+    }
+    .descripcion{
+        font-size: .8rem;
+        line-height: 1.2rem;   
+    }
+    
+
+    div#banner-principal{
+        padding-bottom: 0px;
+    }
+
+    div#banner-principal.slider .contenendor-slider img.d-block.d-md-none {
+        height: 367px;
+        padding-bottom: 26px;
+    }
+
+    div#banner-principal.slider:before {
+        z-index: 2;
+        height: 130px;
+        opacity: .5;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgb(0 0 0) 50%, rgba(0,0,0,0) 100%);
+    }
+    #banner .rotator .frame .descrip h2 {
+        font-size: .8rem;
+        line-height: .9rem;
+        font-weight: 500;
+        margin: 5px 0px;
+    }
+    #banner .rotator .frame .descrip h2 br {
+        display: none;
+    }
+    #banner .rotator .frame .descrip h1 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        font-weight: bold;
+        margin: 0px;
+    }
+    #banner .rotator .frame .descrip .recuadro-texto a {
+        text-align: center;
+        font-size: .8rem;
+        line-height: 1rem;
+        font-family: "Poppins", sans-serif;
+        background: var(--red-portal-exito);
+        padding: 10px;
+        display: table;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        width: auto;
+    }
+    #destacados-hoteles .item-hotel img {
+        height: 10rem;
+        object-fit: cover;
+    }
+    #destacados-hoteles .slide-hoteles-cadenas .item-hotel .brand img {
+        height: 30px;
+    }
+    #destacados-hoteles .slide-hoteles-cadenas .item-hotel .recuadro {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #destacados-hoteles .slide-hoteles-cadenas .item-hotel .recuadro span {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    #destacados-hoteles .slide-hoteles-cadenas .item-hotel .brand {
+        right: 32px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #destacados-hoteles .item-hotel p.texto {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    
+    
+    div#AirFlightRTOW.Multidestino {
+        width: 100%;
+    }
+    .slide-hoteles-cadenas .slick-list.draggable {
+        padding: 0 3rem 0 0px!important;
+    }
+    #banner .rotator .descrip  .titulo-movil-vuelos h2, #banner .rotator .descrip  .titulo-movil-paquetes h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+            font-weight: bold;
+    }
+    #banner .rotator .descrip .titulo-movil-vuelos h1, #banner .rotator .descrip  .titulo-movil-paquetes h1 {
+        font-size: 1rem;
+    }
+    #banner .rotator .descrip .titulo-movil-vuelos, #banner .rotator .descrip  .titulo-movil-paquetes {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .container.aerolinea {
+        padding: 0px;
+        margin: 0px ;
+        width: calc(100% + 10px);
+        max-width: 100%;
+    }
+    .container.aerolinea .row img {
+        width: 105px;
+        object-fit: cover;
+        height: 40px;
+    }
+    .container.aerolinea.avianca {
+        background: #ba1b21;
+    }
+    .container.aerolinea .row {
+        width: 100%;
+        margin: 0px;
+    }
+    .container.aerolinea .row .col-10, .container.aerolinea .row .col-2 {
+        padding: 0px;
+    }
+
+    .container.aerolinea .row p {
+        color: white;
+        font-size: .6rem;
+        line-height: .7rem;
+        margin-left: 10px;
+        margin-top: -9px;
+        margin-bottom: 10px;
+    }
+    .consultar a.btn.btn-block p {
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 20px;
+            margin-bottom: 0px;
+    }
+
+    .consultar a.btn.btn-block p + span {
+        position: relative;
+        top: 2px;
+    }
+    .container.aerolinea .row a.btn {
+        display: block;
+        width: 40px;
+        padding: 8px 10px;
+        background: white;
+        border-radius: 0px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+            right: 6px;
+    }
+
+    .container.aerolinea.avianca .row a.btn {
+        color: #ba1b21;
+    }
+
+    
+    #producto .producto .detail {
+        padding: 0 1rem;
+    }
+    #ciudades .descripcion {
+        margin-bottom: .5rem;
+    }
+
+    #ciudades {
+        margin-top: 10px;
+    }
+    .slide-ciudades .card-ciudades {
+        float: left;
+        display: block;
+        padding: 2px;
+        margin: 0px;
+        height: 8rem;
+    }
+
+    .slide-ciudades {
+        overflow: auto;
+        display: block;
+    }
+
+    div#dnn_ciudadesPane1 .container-fluid {
+        padding: 0px;
+    }
+
+    .slide-ciudades .card-ciudades .recuadro {
+        font-size: 0.6rem;
+        padding: 5px 10px;
+        right: 2px;
+        bottom: 7px;
+    }
+
+    .slide-ciudades .card-ciudades .recuadro span.icon-chevron-right {
+        font-size: .4rem;
+    }
+
+    .slide-ciudades .card-ciudades img {
+        height: 8rem;
+    }
+    #producto .producto .detail p {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    #producto .destacado .producto .detail p {
+        font-size: 0.9rem;
+    }
+
+    
+    #buscador {
+        display: block;
+        background: white;
+        border-radius: 15px;
+        color: var(--red-portal-exito-texto);
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 0.8rem 2rem 0.8rem 1rem;
+        position: relative;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+        top: -28px;
+        margin-bottom: -15px;
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+    }
+     #buscador span {
+         color: var(--red-portal-exito);
+         font-size: 1.25rem;
+         position: absolute;
+         right: 10px;
+         top: 14px;
+    }
+    .contenedor-page.menu-fixed #buscador {
+        top: 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    button#closemorePop {
+        display: block !important;
+    }
+    .slide-ciudades > a, .slide-hoteles-cadenas > a{
+        flex: auto;
+    }
+    ul#ui-id-1, ul#ui-id-2 {
+      z-index: 99;
+      min-height: 100px;
+    }
+
+    .contenedor-page {
+      padding: 0px 4%;
+    }
+    div#ElementsMedellin. div.carouselElements{
+      max-height: 30rem;
+    }
+    
+    .slide-down {
+      display: none;
+    }
+    
+    
+
+    
+    
+    #myTab h3 {
+        margin: 0 0.625rem 0.625rem;
+        text-align: center;
+        line-height: 1;
+    }
+    #banner .rotator .frame {
+        overflow: hidden;
+    }
+    #banner .rotator .frame .back {
+        width: auto;
+        height: 90vh;
+        position: relative;
+    }
+    #banner .rotator .frame h3 {
+        left: 0%;
+        width: 100%;
+        top: 20%;
+        transform: translateX(0%);
+        text-align: center;
+        line-height: 1.1;
+        z-index: 99;
+    }
+    #banner .rotator .frame .descrip {
+        width: 100%;
+        z-index: 10;
+        position: relative;
+        transform: none;
+        padding: 0px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #banner .rotator .frame .descrip img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+    #destacados {
+      margin: 0;
+    }
+    #destacados .lugares .detail {
+      bottom: 32px;
+    }
+    #destacados .lugares .detail p span {
+      display: block;
+    }
+    #destacados .lugares .detail h4 {
+      font-size: 1rem;
+    }
+    #destacados .lugares .detail p {
+      font-size: 2rem;
+    }
+    #destacados .lugares .detail p span {
+      font-size: .8rem;
+      margin-bottom: 0px;
+    }
+    #destacados #featuvar(--red-portal-exito) {
+      padding: 0 8px;
+      max-height: 20rem !important;
+      overflow: hidden;
+    }
+    #destacados .slick-list {
+      max-height: 23.4375rem;
+      padding: 0 2.8rem 0 0px!important;
+    }
+    #destacados .col-12.col-md.slick-slide {
+      padding: 0px;
+      margin: 1.2rem .5rem 1.2rem 0;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    }
+    #destacados #featuvar(--red-portal-exito) .slick-list .slick-track {
+      max-height: 420px;
+    }
+
+    a.xpand {
+      font-weight: 800;
+      width: calc(100% + 32px);
+      margin: 18px -16px 0px -16px;
+      padding: 20px 32px;
+      font-size: .9rem;
+      line-height: 1rem;
+      font-family: "Poppins", Helvetica, sans-serif;
+          border-radius: 15px;
+    }
+    a.xpand span.icon-chevron-down {
+      right: 34px;
+      transform: translateY(-50%);
+      transition: all .5s;
+    }
+    a.xpand[aria-expanded="true"] span.icon-chevron-down {
+      transform: translateY(-50%) rotate(180deg);
+    }
+    article#suscripciones {
+      width: calc(100% + 32px);
+      margin: -15px -16px 0px -16px;
+    }
+    section#suscripcion {
+      padding: 0px;
+      background: #e2e2e2;
+    }
+    article#suscripciones div#dnn_titlesusPane {
+      display: none;
+    }
+    article#suscripciones .FormSuscribirse .fnlForm {
+      margin: 0px;
+    }
+    article#suscripciones .container-fluid {
+      margin: 0px;
+      padding: 0px 18px;
+      max-width: 100%;
+      width: 100%;
+    }
+    #suscripcion .FormSuscribirse .dnnFormAndList .dnnForm.fnlForm.dnnClear > div {
+      width: 100% !important;
+      float: none !important;
+    }
+    article#suscripciones .FormSuscribirse .fnlForm .dnnFormItem {
+      width: 100%;
+      padding: 0px;
+      position: relative;
+    }
+    article#suscripciones .FormSuscribirse input[type="text"] {
+      padding: 13px 15px;
+      margin-bottom: 11px;
+      max-width: 100%;
+      font-family: "Poppins", Helvetica, sans-serif;
+    }
+    .FormSuscribirse input[type="text"] {
+      padding: 13px 15px;
+      margin-bottom: 11px;
+    }
+    .FormSuscribirse ul.dnnActions.dnnClear {
+      position: absolute;
+      width: 48px !important;
+      height: 48px;
+      right: 8px;
+      bottom: 47px;
+    }
+    .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(1) a {
+      width: 48px;
+      height: 48px;
+      border-radius: 3px;
+      font-size: 0px;
+      margin: 0px !important;
+      padding: 0px;
+      min-width: 0px;
+    }
+    .FormSuscribirse ul.dnnActions.dnnClear li:nth-child(1) a:before {
+      content: " ";
+      width: 32px;
+      height: 32px;
+      background: url(https://vexrecursos.s3.amazonaws.com/Multimedia/pagina/icon-suscribirse-01.png) no-repeat center center;
+      background-size: cover;
+      position: absolute;
+      left: 7px;
+      top: 8px;
+    }
+    article#suscripciones .FormSuscribirse .fnlForm .dnnFormItem:nth-child(3) {
+      width: calc(100% - 60px);
+    }
+    .FormSuscribirse .dnnFormItem:last-child {
+      position: relative;
+      bottom: auto;
+      top: -9px;
+    }
+    .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp {
+      width: calc(100% - 30px);
+    }
+    .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp label.dnnBoxLabel span,
+    .FormSuscribirse .dnnFormItem:last-child .dnnFormLabelWithoutHelp label.dnnBoxLabel span a {
+      font-size: .7rem;
+      color: var(--red-portal-exito-texto) !important;
+      text-shadow: none !important;
+    }
+    .FormSuscribirse .dnnFormItem:last-child>span {
+      margin: 0px;
+      margin-left: -4px !important;
+    }
+    #suscripcion .FormSuscribirse .dnnFormItem:last-child .dnnBoxLabel {
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    #hoteles .container-fluid {
+      padding: 0px 6px;
+    }
+    #hoteles .item-hotel {
+      margin: 0px;
+    }
+    #hoteles .container-fluid .col-12 {
+      padding: 3px;
+      width: 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    #hoteles .container-fluid .col-12:last-child {
+      width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    #hoteles .item-hotel>img {
+      height: 10rem;
+    }
+
+    #hoteles .item-hotel .brand {
+      width: calc(100% - 2.5rem);
+      transform: none;
+      right: 0px;
+      max-width: 128px;
+      transform: scale(.7) translate(36%, 23%);
+    }
+    #hoteles .item-hotel .brand img {
+      width: 100%;
+      object-fit: cover;
+      height: 2.5rem;
+    }
+    #hoteles .item-hotel .recuadro {
+      transform: scale(0.7) translate(25%, 25%);
+    }
+    #hoteles .item-hotel .brand {
+      transform: none;
+      height: 25px;
+      width: 75px;
+    }
+    #hoteles .item-hotel .brand img {
+      height: 25px;
+      width: 75px;
+      object-fit: cover;
+    }
+    .conenedor-carrusel-oferta {
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    #hoteles .item-hotel .recuadro {
+      right: 74px;
+      transform: scale(.62) translate(32%, 32%);
+    }
+    #ofertas .tab-item .item {
+      width: 100%;
+      display: block;
+    }
+    #ofertas .slick-track {
+      margin: .2rem;
+    }
+    #suscripcion {
+      margin-top: 0;
+    }
+    section#producto {
+      padding: 0px;
+      margin-top: 2.5rem;
+    }
+    section#producto .container-fluid {
+      padding: 0px;
+    }
+    section#producto .container-fluid>.row>div {
+          padding: 0px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    section#producto .container-fluid>.row>div:nth-child(2n) {
+        padding: 0px;
+        padding-left: 5px;
+    }
+    #producto .producto {
+      height: 15rem;
+      margin-bottom: 0px;
+    }
+
+    #producto .producto .detail {
+      padding: 0 0.625rem;
+    }
+    #producto .producto .detail h4 {
+      font-size: 1.1rem !important;
+      line-height: 1.3rem !important;
+      margin-bottom: 1rem !important;
+    }
+    #producto .producto .detail.one,
+    #producto .producto .detail.two {
+      height: 12.5rem;
+    }
+    section#producto .container-fluid>.row>div.col-6.col-md {
+      padding: 8px;
+    }
+    section#producto .container-fluid>.row>div.col-6.col-md:nth-child(2) {
+      padding-left: 0px;
+    }
+    section#producto .container-fluid>.row>div.col-6.col-md:nth-child(3) {
+      padding-right: 0px;
+    }
+    #producto .recuadro {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: var(--red-portal-exito);
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      line-height: 40px;
+      text-align: center;
+    }
+    #producto .recuadro span {
+      color: #fff;
+    }
+    #producto .col-12:last-child img {
+      transform: translateY(-15%);
+    }
+    #producto .col-12:last-child h4 {
+      font-size: 1.375rem;
+      margin-bottom: 0;
+    }
+    div#pagos {
+      margin: 0px;
+      margin-top: 1rem;
+      border-top: 1px solid #d2d2d2;
+      border-bottom: 1px solid #d2d2d2;
+      padding: 25px 0px;
+    }
+    #pagos .titulos {
+      font-size: 1.125rem !important;
+    }
+    div#pagos .container .row div.col, div#pagos .container-fluid .row div.col{
+        width: calc(calc(100% - 60px) / 6);
+        flex: 0 0 calc(calc(100% - 60px) / 6);
+    }
+    #pagos .row .col {
+      padding: 4px 12px;
+    }
+    #pagos .row .col img {
+      width: 100% !important;
+      height: auto !important;
+    }
+    .titulos {
+      font-size: 1.6rem;
+      line-height: 1.8rem;
+      padding: 0;
+      margin: .5rem 0px 0px 0px;
+    }
+    .sub-titulos {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 0;
+        margin: .5rem 0px .5rem 0px;
+    }
+    .btnBanner {
+      position: absolute;
+      top: 64%;
+      left: 9%;
+      transform: translate(0, 0);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #f00;
+      color: #fff;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 2px 5px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .btnBannerUsa {
+        position: absolute;
+        top: 74%;
+        left: 34%;
+        transform: translate(0, 0);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f00;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 9px;
+        padding: 4px 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .btnBannerHome {
+      position: absolute;
+      top: 64%;
+      left: 58%;
+      transform: translate(0, 0);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #f00;
+      color: #fff;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 2px 5px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .btnBannerHome1 {
+      position: absolute;
+      top: 69%;
+      left: 58%;
+      transform: translate(0, 0);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #f00;
+      color: #fff;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 2px 5px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .descripcion {
+      font-size: 0.85rem;
+      line-height: 1.2;
+      padding: 0;
+      margin-bottom: 1.5rem;
+    }
+
+
+    section#travelers div#dnn_travelersTitlePane {
+        margin-top: 30px;
+    }
+    section#travelers .container-fluid {
+        padding: 0px;
+    }
+
+    section#travelers .container-fluid .col-6.col-md-3.pad-0 {
+        padding: 2px;
+    }
+
+    section#travelers .container-fluid .col-6.col-md-3.pad-0 a.type-travel {
+        margin: 0px;
+    }
+
+    #travelers .type-travel h4 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    #travelers .type-travel img {
+        height: 10rem;
+    }
+    div#carousel-traverls .slick-list.draggable {
+        padding: 0px !important;
+    }
+
+    div#carousel-traverls .col-6.pad-0 .col-6.col-md-6.pad-0 {
+        padding: 0px;
+    }
+
+    div#carousel-traverls .col-6.pad-0 .col-6.col-md-6.pad-0 a.type-travel {
+        margin: 0px;
+    }
+    div#carousel-traverls .col-6.pad-0 .col-6.col-md-6.pad-0 {
+        padding: 0px 2px 4px 0px;
+    }
+
+    div#carousel-traverls .col-6.pad-0 .col-6.col-md-6.pad-0:nth-child(2n) {
+        padding: 0px 0px 4px 2px;
+    }
+    div#carousel-traverls ul.slick-dots li {
+        width: 70px;
+        height: 7px;
+        background: white;
+        border-radius: 50px;
+        border: 1px solid #c4c4c4;
+        box-shadow: 0 2px 10px rgb(165 165 165 / 30%);
+    }
+
+    div#carousel-traverls ul.slick-dots li.slick-active {
+        background: #c4c4c4;
+    }
+
+    #destacados .col-12.col-md.slick-slide, #destacados .lugares, #destacados .lugares img {
+      height: 18rem !important;
+    }
+    #destacados #featuvar(--red-portal-exito) .slick-list .slick-track, #destacados #featuvar(--red-portal-exito) .slick-list .slick-track {
+      max-height: 18rem !important;
+    }
+
+    
+    .xpand {
+      background: #e2e2e2;
+      color: var(--red-portal-exito-texto);
+      display: block;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 1.2;
+      padding: 0.9375rem 0.625rem;
+      position: relative;
+    }
+    .xpand:hover,
+    .xpand:focus {
+      color: var(--red-portal-exito-texto);
+    }
+    .xpand span {
+      position: absolute;
+      color: var(--red-portal-exito);
+      right: 10px;
+      top: 50%;
+    }
+    .semi-full, .full-full{
+        padding: 0px;
+        margin: 0px;
+        width: calc(100%);
+    }
+    ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li.ui-menu-item table tbody tr td:last-child{
+        font-size: .8rem;
+    }
+
+    ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li.ui-menu-item a {
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+    }
+
+    ul.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front li.ui-menu-item table tbody tr td:nth-child(1) span.icon-ida-regreso:before {
+        font-size: .8rem;
+    }
+    
+    
+    
+    .border-superior {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .content-result {
+        margin-top: 20px;
+    }
+
+    .form-control.searchFAQ {
+        margin-bottom: 20px;
+    }
+    .slide-actividades-blog-destinos {
+        margin: 20px -4% !important;
+        width: 108% !important;
+    }
+    .slide-lugares-blog-destinos .slide-item {
+       padding: 0px;
+       margin: 5px;
+   }
+   
+   .slide-lugares-blog-destinos {
+       margin: 10px -4%;
+       width: 108%;
+   }
+}
+
+@media only screen and (max-width: 780px){
+    #ofertas .destacado-contenedor-elemento img.efecto-hover {
+       height: auto !important;
+    }
+    #ofertas .destacado-contenedor-elemento.lateral {
+        margin-top: 30px;
+    }
+    #revealNewSearch[aria-hidden="false"] {
+        left: 0px !important;
+    }
+    
+    #revealNewSearch[aria-hidden="true"] {
+        left: -100% !important;
+    }
+    
+    #revealNewSearch {
+        height: 100vh !important;
+        display: block !important;
+        transform: none;
+        transition: left .5s !important;
+    }
+    .destacados-home .pad-10 {
+        padding: 0px;
+    }
+    .destacados-home .pad-8 {
+        padding: 0px;
+    }
+    div#pagos .container .row div.col {
+        width: 20%;
+        flex: 0 0 20%;
+    }
+    div#banner-principal.slide-banner-ciudades-destino .slick-list.draggable {
+        padding: 0px !important;
+    }
+    div#banner-principal.banner-movil img.banner-movil, div#banner-principal.banner-movil picture.banner-movil{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    div.slide-banner-circuitos img {
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    div.slide-banner-circuitos ul.slick-dots {
+        bottom: 53px;
+    }
+
+    div.slide-banner-circuitos .slick-list.draggable {
+        padding: 0px !important;
+    }
+    div.slide-banner-blog-destinos img {
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    div.slide-banner-blog-destinos ul.slick-dots {
+        bottom: 53px;
+    }
+
+    div.slide-banner-blog-destinos .slick-list.draggable {
+        padding: 0px !important;
+    }
+    .slick-list.draggable {
+        padding: 0px 15% 0px 5%;
+    }
+
+    .slide.carouselElements {
+        display: flex;
+        padding: 0px 15% 0px 5%!important;
+    }
+    div.slide-banner .slick-list.draggable {
+        padding: 0px !important;
+    }
+    .slide.carouselElements.slick-initialized.slick-slider {
+        padding: 0px !important;
+        height: auto;
+    }
+
+    
+    #producto .producto {
+        height: 12rem;
+    }   
+
+    a.d-md-none.movil {
+        display: flex;
+    }
+    .invertir-movil {
+        margin-right: -15px;
+        margin-left: -15px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    div#banner-principal {
+        background-size: cover;
+        max-height: 400px;
+        display: flex;
+        align-content: end;
+        align-items: center;
+    }
+    div.slide-banner-circuitos .slide-item{
+        flex: 0 0 100%;
+    }
+    div.slide-banner ul.slick-dots {
+        bottom: 8%;
+        z-index: 1;
+    }
+
+    div#banner-principal.hoteles {
+        background: url(../img/BannerHoteleMobile.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    div#banner-principal.clip-mask {
+        height: 350px;
+        object-fit: cover;
+    }
+    div#banner-principal.avianca {
+        background-position: center bottom;
+        background-size: 200%;
+    }
+    div#pasajerosvuelos .row.row-medium-gutters {
+        padding: 10px;
+    }
+    button.slick-arrow {
+        display: none !important;
+    }
+    
+    
+    
+    
+    div#ProtocolosCovid div#removeEnganche i.fa.fa-times {
+        font-family: "Font Awesome 5 Free" !important;
+    }
+    div.slide-banner-ciudades-destino .slide-item {
+        flex: 0 0 100%;
+    }
+    .detalles-circuito > .row > div span[class*="icon-"] {
+        flex: 0 0 30px;
+        text-align: center;
+    }
+
+    .detalles-circuito span.content p {
+        margin-bottom: 10px;
+    }
+
+    .detalles-circuito > .row > div {
+        align-items: flex-start;
+    }
+    ul.incluye-items li{
+        flex: 0 0 100%;
+    }
+    ul.incluye-items{
+        margin-left: 0px;
+    }
+    ul.incluye-items.hoteles li{
+        margin-bottom: 26px;
+    }
+    div#categoria-circuitos > .row .col-sm-6 {
+        flex: 0 0 40%;
+        padding: 0px 5px;
+    }
+    
+    div#categoria-circuitos > .row {
+        width: 100%;
+        flex-wrap: nowrap;
+        position: relative;
+        justify-content: flex-start;
+        scroll-snap-type: x mandatory;
+        overflow: scroll;
+        overflow-scrolling: touch;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 30px !important;
+    }
+    div#categoria-circuitos > .row::-webkit-scrollbar {
+        -webkit-appearance: none;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-webkit-scrollbar:vertical {
+        width: 0px;
+    }
+    div#categoria-circuitos > .row::-webkit-scrollbar:horizontal {
+        height: 4px;
+    }
+    div#categoria-circuitos > .row::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+        background-color: #c7c7c7;
+    }
+
+
+    div#categoria-circuitos > .row::-moz-scrollbar {
+        -moz-appearance: none;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-moz-scrollbar-track{
+        -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-moz-scrollbar:vertical {
+        width: 0px;
+    }
+    div#categoria-circuitos > .row::-moz-scrollbar:horizontal {
+        height: 4px;
+    }
+    div#categoria-circuitos > .row::-moz-scrollbar-thumb {
+        border-radius: 10px;
+        -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+        background-color: #c7c7c7;
+    }
+
+    div#categoria-circuitos > .row::-ms-scrollbar {
+        -ms-appearance: none;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-ms-scrollbar-track{
+        -ms-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::-ms-scrollbar:vertical {
+        width: 0px;
+    }
+    div#categoria-circuitos > .row::-ms-scrollbar:horizontal {
+        height: 4px;
+    }
+    div#categoria-circuitos > .row::-ms-scrollbar-thumb {
+        border-radius: 10px;
+        -ms-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+        background-color: #c7c7c7;
+    }
+
+    div#categoria-circuitos > .row::scrollbar {
+        appearance: none;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::scrollbar-track{
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    div#categoria-circuitos > .row::scrollbar:vertical {
+        width: 0px;
+    }
+    div#categoria-circuitos > .row::scrollbar:horizontal {
+        height: 4px;
+    }
+    div#categoria-circuitos > .row::scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+        background-color: #c7c7c7;
+    }
+    .content-blog-destions-comer {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        min-height: 470px;
+        margin: 10px 0px;
+        width: 100%;
+        box-shadow: 0px 2px 14px 0px rgb(52 99 188 / 19%);
+    }
+    
+    .content-blog-destions-comer > div {
+        flex: 0 0 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .blog-destinos-content-transporte-imagenes {
+       padding: 50px 0px;
+   }
+   
+   .blog-destinos-content-transporte-imagenes > div.imagen-2 {
+       margin: -100px 0px -60px 0px;
+   }
+}
+
+@media only screen and (max-width: 480px){
+    .destacados-home > .row {
+        padding: 0px 15% 0px 5%;
+    }
+    
+    #ofertas .destacados-home > .row > div {
+        /* margin: 0px 8px; */
+    }
+    .destacado-elemento{
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .titulos {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        padding: 0;
+        margin: 0.5rem 0px 0.5rem 0px;
+    }
+    .shadow-right, .shadow-left {
+        position: relative;
+    }
+    .shadow-left:before, .shadow-right:after {
+        content: " ";
+        width: 24px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        background: black;
+        z-index: 1;
+        opacity: 0.35;
+    }
+    
+    .shadow-right:after {
+        right: 0px;
+        background: rgb(0,0,0);
+        background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    }
+    
+    .shadow-left:before{
+        left: 0px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    }
+    div#pagos .container .row div.col, div#pagos .container-fluid .row div.col{
+        width: calc(calc(100% - 30px) / 3);
+        flex: 0 0 calc(calc(100% - 30px) / 3);
+     }
+}
+/*--------------------------------------------------------------------------------------------*/
+/*-------------------------------------PROTOCOLOS COVID 19------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+div#ProtocolosCovid {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: #363636;
+    z-index: 9;
+    display: flex;
+display: none;}
+
+div#ProtocolosCovid div#removeEnganche {
+    padding: 7px 10px;
+    background: white;
+    width: auto;
+    margin-right: 20px;
+    color: #363636;
+    cursor: pointer;
+}
+div#ProtocolosCovid div#removeEnganche i:before{
+    color: #363636;
+}
+div#ProtocolosCovid a {
+    color: white;
+    font-size: .8rem;
+    line-height: 38px;
+    text-decoration: underline;
+    font-family: "Poppins", Helvetica, sans-serif !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  div#ProtocolosCovid a {
+      line-height: .6rem;
+      margin-top: 9px;
+      padding-right: 10px;
+      font-size: .6rem;
+  }
+
+  div#ProtocolosCovid div#removeEnganche {
+      margin-right: 10px;
+  }
+
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*-------------------------------------INICIAR SESION--------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+section#bannerLogin {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/imagen-login.png) no-repeat center center;
+    position: relative;
+    background-size: cover;
+}
+
+section#bannerLogin .row {
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: rgb(0 0 0 / 30%);
+}
+section#bannerLogin .row .dnnLogin {
+    width: auto;
+}
+
+section#bannerLogin .row .LoginPanel {
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    float: none;
+    padding: 30px;
+}
+section#bannerLogin .dnnLabel {
+    padding-right: 20px;
+    margin-right: 0px;
+    width: 180px;
+}
+
+section#bannerLogin .dnnLabel label {
+    font-size: .8rem;
+}
+.dnnLoginService label, .dnnLoginService input, .dnnLoginService a {
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+section#bannerLogin .dnnFormItem input {
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: calc(100% - 180px);
+    background: #fafafa;
+}
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(3) {
+    border-bottom: 2px solid #c5c5c5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(3) > span.dnnFormLabel {
+    display: none;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(3) > span.dnnLoginRememberMe label {
+    font-size: .8rem;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(3) > span.dnnLoginRememberMe span.dnnCheckbox {
+    box-shadow: none;
+    margin: 0px;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(3) > span.dnnLoginRememberMe span.dnnCheckbox span {
+    background: white;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(4) > span.dnnFormLabel {
+    display: none;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(4) > a:last-child {
+    display: none;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(4) > a[title="Iniciar"] {
+    width: 100%;
+    border-radius: 0px;
+    background: var(--red-portal-exito);
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(4) > a[title="Iniciar"]:hover {
+    background: var(--red-portal-exito-hover);
+    letter-spacing: 0px;
+}
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) > span.dnnFormLabel {
+    display: none;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions ul {
+    padding-top: 0px;
+    width: 100%;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions ul li {
+    width: 50%;
+    margin: 0px;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions {
+    width: 100%;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions ul li a {
+    width: 96%;
+    border-radius: 0px;
+    padding: 4px 10px;
+    font-size: .8rem;
+    font-weight: 300;
+    background: none;
+    border-bottom: 1px solid var(--red-portal-exito);
+    transition: all .5s;
+}
+
+section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions ul li a:hover {
+   background:var(--red-portal-exito);
+   color:white;
+
+}
+body#Body.promocion section#ofertas div#dnn_titleOfertaPane, body#Body.promocion section#ciudades div#dnn_ciudadestitlePane, body#Body.promocion section#producto div#dnn_productoPane, body#Body.promocion section#hoteles div#dnn_hoteltitlePane{
+    position: relative;
+}
+
+
+.descrip-flotante {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+}
+.descrip-flotante h2 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0px 3px 20px rgb(0 0 0 / 70%);
+    text-align: center;
+}
+
+.accordion>.card>.card-header {
+    padding: 0px;
+    z-index: 2;
+    background: none;
+    border: none;
+    margin: 0px;
+}
+.accordion>.card a {
+    display: inline;
+    color: var(--red-portal-exito);
+}
+.accordion>.card>.card-header button {
+    margin: 0px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: .9rem;
+    color: var(--red-portal-exito-texto);
+    background: white;
+    border: 1px solid #d8dbe2;
+    border-radius: 50px;
+    padding: 15px 35px 15px 25px;
+    position: relative;
+}
+.accordion>.card>.card-header button:before {
+    font-family: 'icomoon' !important;
+    content: "\e844";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: absolute;
+    right: 19px;
+    color: #999999;
+    transition: transform .3s;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accordion>.card>.card-header button[aria-expanded="true"]:before {
+    color: white;
+    transform: rotate(90deg) translateX(-50%);
+    top: 50%;
+    right: 23px;
+}
+.accordion>.card .card-body {
+    font-family: "Poppins", Helvetica, sans-serif !important;
+    font-size: 0.84rem;
+    line-height: 1.4;
+}
+.accordion>.card>.card-header button:hover {
+    text-decoration: none;
+}
+
+.accordion>.card {
+    box-shadow: none;
+    border: none;
+    margin: 1rem 0px;
+}
+
+.accordion>.card> div:last-child {
+    z-index: 1;
+    background: white;
+    box-shadow: none;
+}
+
+.accordion>.card>.card-header button[aria-expanded="true"] {
+    background: var(--red-portal-exito);
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+    section#bannerLogin {
+        background: url(../renovacion/img/imagen-login.png) no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    section#bannerLogin .row {
+        background: rgb(0 0 0 / 30%);
+    }
+    section#bannerLogin .row .LoginPanel {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 41px;
+    }
+  
+    section#bannerLogin .dnnLabel {
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+  
+    section#bannerLogin .dnnFormItem input {
+        width: 100%;
+    }
+  
+    section#bannerLogin .dnnForm .dnnFormItem:nth-child(5) .dnnLoginActions ul li {
+        width: 100%;
+    }
+    .destacados-home {
+        margin: 0px -15px;
+        width: calc(100% + 30px);
+    }
+    .datos-geograficos.destacados-home{
+    width: 108%;
+    margin: 0px -4%;
+}
+    .destacados-home > .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        padding: 0px 15% 0px 5%;
+    }
+    .destacados-home > .row.destacados-home {
+        padding: 0px;
+    }
+  
+    .destacados-home > .row {
+        padding: 0px;
+    }
+  
+    #ofertas .destacados-home > .row > div {
+        margin: 0px;
+    }
+    .destacados-home > .row.slick-initialized {
+       padding: 0px;
+    }
+    .destacados-home > .row > div.col-sm-12 {
+        flex: 0 0 100%;
+        margin: 0px 8px;
+    }
+    .destacados-home > .row .slick-list.draggable {
+        /* padding: 0px 0px 0px 0px; */
+    }
+    .datos-geograficos > .row > div div .content-more-view{
+      margin: 8px !important;
+      min-height: 550px;
+      box-shadow: 0px 2px 14px 0px rgb(52 99 188 / 19%);
+    }
+      .container-fluid.datos-geograficos .slick-slide {
+         margin: 0px !important;
+     }
+    .destacados-home > .row .slick-list.draggable > .slick-track > div {
+        padding: 0px;
+        margin: 0px 8px;
+    }
+    div#banner-principal.hoteles .descrip h2, div#banner-principal.paquetes .descrip h2 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 500;
+        margin: 8px 12px 0px 12px;
+    }
+    .cerrarChat {
+        bottom: 519px;
+        right: 14px;
+    }
+
+    body#Body.promocion #header:before {
+        display: none !important;
+    }
+
+    
+    body#Body.promocion div#banner-principal.hoteles .descrip h1, body#Body.promocion div#banner-principal.paquetes .descrip h1 {
+        line-height: 1.8rem;
+        font-size: 1.6rem;
+    }
+    body#Body.promocion section#bannerPromocion h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 0px;
+    }
+    body#Body.promocion section#bannerPromocion h2 {
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: bold;
+        margin-bottom: -4px;
+    }
+    body#Body.promocion div#banner-principal .descrip {
+        margin-top: -50px;
+    }
+    body#Body.promocion section#bannerPromocion .container-fluid .row.texto p {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.2rem;
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+    body#Body.promocion section#bannerPromocion {
+        padding: 136px 2% 20px 2%;
+    }
+    body#Body.promocion section#bannerPromocion .container-fluid:before {
+        display:none;
+    }
+    body#Body.promocion div#banner-principal, body#Body.promocion div#banner-principal.paquetes {
+        max-height: 264px;
+    }
+    body#Body.promocion footer.pie-de-pagina:after, body#Body.promocion section#producto div#dnn_productoPane:before, body#Body.promocion section#ciudades div#dnn_ciudadestitlePane:before, body#Body.promocion section#hoteles div#dnn_hoteltitlePane:before, body#Body.promocion section#ofertas div#dnn_titleOfertaPane:before{
+      display: none;
+    }
+    body#Body.promocion section#bannerPromocion h1 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.6rem;
+        margin-bottom: 0px;
+        font-weight: 300;
+    }
+    body#Body.promocion section#bannerPromocion .container-fluid .row.texto p {
+        font-size: .6rem;
+        text-align: center;
+        line-height: .8rem;
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+    div#banner-principal picture, div#banner-principal picture source, div#banner-principal picture img {
+        height: 200px;
+    }
+    div#banner-principal.banner-movil .descrip-flotante > img, div#banner-principal.banner-movil .descrip-flotante > picture img, div#banner-principal.banner-movil .descrip-flotante > picture source {
+        height: auto;
+    }
+    div#banner-principal.banner-movil > img, div#banner-principal.banner-movil picture, div#banner-principal.banner-movil picture img, div#banner-principal.banner-movil picture source {
+        height: 100%;
+    }
+    div#banner-principal.banner-movil .descrip-flotante {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        transform: none !important;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    div#banner-principal.banner-movil .descrip-flotante img, div#banner-principal.banner-movil .descrip-flotante picture{
+       width: 100%;
+   }
+    .descrip-flotante h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 0px 3px 20px rgb(0 0 0 / 70%);
+        text-align: center;
+    }
+    .slide-lugares-blog-destinos .slide-item {
+        padding: 0px;
+        margin: 5px;
+    }
+    
+    .slide-lugares-blog-destinos {
+        margin: 10px -4%;
+        width: 108%;
+    }
+
+    .slide-lugares-blog-destinos .slide-item picture, .slide-lugares-blog-destinos .slide-item picture img, .slide-lugares-blog-destinos .slide-item picture source {
+        height: 237px;
+    }
+    
+    .slide-lugares-blog-destinos p {
+        width: 100%;
+        font-size: .8rem;
+    }
+}
+
+
+
+
+/*----------------------------------------------
+---------------- TABS ---------------------
+-----------------------------------------------*/
+ul#nav-tabs-informacion-destinos {
+    border: none;
+    margin: 0px;
+    background: white;
+    box-shadow: 0px 0px 14px 0px rgb(52 99 188 / 10%);
+    width: auto;
+    border-radius: 50px;
+    padding: 7px;
+    display: inline-flex;
+}
+ul#nav-tabs-informacion-destinos li.nav-item {
+    background: none;
+    color: #545454;
+    margin: 0px 5px;
+}
+ul#nav-tabs-informacion-destinos li.nav-item h2 {
+    margin-bottom: 0px;
+}
+ul#nav-tabs-informacion-destinos li.nav-item a, ul#nav-tabs-informacion-destinos li.nav-item a h2 {
+    margin: 0px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: .75rem;
+    padding: 10px 20px;
+    color: #545454;
+    background: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
+}
+
+ul#nav-tabs-informacion-destinos li.nav-item a:hover {
+    background: #e0e0e0;
+}
+ul#nav-tabs-informacion-destinos li.nav-item a h2 {
+    padding: 1px;
+}
+ul#nav-tabs-informacion-destinos li.nav-item a.active, ul#nav-tabs-informacion-destinos li.nav-item a.active h2 {
+    color: white;
+    background: var(--red-portal-exito);
+}
+div#dnn_tabInformacionImagenDestinoPane img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    object-position: center 28%;
+}
+
+div#content-destinos-tab .col-12.col-md-6:last-child {
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div#myTabContent {
+    margin-top: 20px;
+}
+section#recomendaciones .contentRecomendacion {
+    width: calc(20%  - 20px);
+    border: 1px solid #efefef;
+    background: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+section#recomendaciones .contentRecomendacion .Normal span {
+    background: var(--red-portal-exito);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    margin: -42px auto 24px auto;
+}
+ul.list-vuelos-san-andres, ul.list-vuelos-san-andres li {
+    list-style: decimal;
+    font-size: 17px;
+}
+ul.list-vuelos-san-andresv2, ul.list-vuelos-san-andresv2 li {
+    list-style: disc;
+    font-size: 17px;
+}
+ul.list-vuelos-bogota, ul.list-vuelos-bogota li {
+    list-style: disc;
+    font-size: 17px;
+}
+ul.list-vuelos-barranquilla, ul.list-vuelos-bucaramanga, ul.list-vuelos-bucaramanga li, ul.list-vuelos-barranquilla li {
+    list-style: decimal;
+    font-size: 17px;
+}
+ul.list-vuelos-miami, ul.list-vuelos-miami li {
+    list-style: disc;
+    font-size: 17px;
+}
+ul.list-transporte-barranquilla, ul.list-transporte-barranquilla li h3, #informacion-destino .tab-pane h3 {
+    list-style: decimal;
+    font-size: 1.23rem;
+    color: #535353;
+}
+#informacion-destino .titulos {
+    margin-top: 0.4rem;
+}
+
+@media only screen and (max-width: 480px){
+    section#recomendaciones .contentRecomendacion {
+        width: 100%;
+    }
+
+    div#dnn_tabInformacionImagenDestinoPane img {
+        margin-bottom: 20px;
+    }
+
+    ul#nav-tabs-informacion-destinos li.nav-item a {
+        margin-bottom: 10px;
+    }
+}
+
+/*----------------------------------------------
+---------------- Accordion ---------------------
+-----------------------------------------------*/
+
+.form-control.searchFAQ {
+    border: none;
+    font-family: "Poppins", Helvetica, sans-serif !important;
+    border-bottom: 1px solid var(--red-portal-exito-texto);
+    border-radius: 0px;
+    font-size: .85rem;
+}
+
+.form-control.searchFAQ:hover, .form-control.searchFAQ:active {
+    border-bottom: 1px solid var(--red-portal-exito);
+}
+
+
+
+/*------------------------------------------------
+---------------- Menu Rapido ---------------------
+------------------------------------------------*/
+div#sidebar-wrapper-sticky-wrapper {
+    margin-bottom: 20px;
+}
+div.menu-rapdio {
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 10%);
+}
+div.menu-rapdio ul li:hover{
+    background: #f9f9f9;
+}
+div.menu-rapdio ul li {
+    list-style: none;
+    font-size: .85rem;
+    line-height: 1.4;
+    font-family: "Poppins", Helvetica, sans-serif;
+    padding: 8px 20px;
+    color: var(--red-portal-exito-texto);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+div.menu-rapdio ul {
+    margin: 0px;
+}
+div.menu-rapdio ul li:hover a{
+    color: var(--red-portal-exito);
+    text-decoration: underline;
+}
+div.menu-rapdio ul li a {
+    color: var(--red-portal-exito-texto);
+    display: block;
+}
+div.menu-rapdio ul li.active {
+    background: var(--red-portal-exito);
+    padding: 8px 20px;
+}
+div.menu-rapdio ul li.active a {
+    color: white;
+}
+div.menu-rapdio ul li.active:hover a{
+    text-decoration: none;
+}
+/*------------------------------------------------------
+---------------- Atencion al usuario--------------------
+------------------------------------------------------*/
+.contenedor-atencion-usuario {
+    display: -webkit-flex;
+    display: flex;
+    padding: 6px 16px;
+}
+.contenedor-atencion-usuario > div {
+    background: white;
+    box-shadow: 0px 0px 10px #dadada;
+    padding: 26px;
+    border-radius: 8px;
+    margin: 0px;
+    width: 100%;
+}
+a.btn-atencionCliente {
+    width: 100%;
+    display: block;
+    padding: 13px;
+    background: var(--red-portal-exito);
+    color: white;
+    text-align: center;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+a.btn-atencionCliente:hover {
+    background: var(--red-portal-exito-hover);
+}
+
+/*------------------------------------------------------
+----------------    corporativo --------------------
+------------------------------------------------------*/
+
+div#form-servicios-corporativo > div{
+    background: #f7f7f7;
+    box-shadow: 0px 0px 10px #dadada;
+    padding: 20px;
+}
+
+div#form-servicios-corporativo .dnnForm .dnnFormItem input, div#form-servicios-corporativo .dnnForm .dnnFormItem input:active, div#form-servicios-corporativo .dnnForm .dnnFormItem input:focus {
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    font-size: .85rem;
+    line-height: 1.4;
+    font-family: "Poppins", Helvetica, sans-serif;
+    border-bottom: 1px solid #767676;
+    border-radius: 0px;
+    width: 100%;
+    color: #444;
+    background: transparent;
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem select, div#form-servicios-corporativo .dnnForm .dnnFormItem select:active, div#form-servicios-corporativo .dnnForm .dnnFormItem select:focus {
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    font-size: .85rem;
+    line-height: 1.4;
+    font-family: "Poppins", Helvetica, sans-serif;
+    border-bottom: 1px solid #767676;
+    border-radius: 0px;
+    width: 100%;
+    color: #444;
+    position: relative;
+    appearance: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    -o-appearance: auto;
+    background: transparent;
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem input:active, div#form-servicios-corporativo .dnnForm .dnnFormItem input:focus {
+    border-bottom: 1px solid var(--red-portal-exito);
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem label {
+    display: none;
+    color: #444;
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem label[for="dnn_ctr961_Default_Form_Compra_mensual_en_Tiquetes_y_Hoteles"]{
+    display: inline-block;
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem input[type="checkbox"] + span, div#form-servicios-corporativo .dnnForm .dnnFormItem input[type="radio"] + span {
+    margin: 0px;
+}
+div#form-servicios-corporativo .dnnForm .dnnFormItem input[type="checkbox"] + span span.mark, div#form-servicios-corporativo .dnnForm .dnnFormItem input[type="radio"] + span span.mark {
+    background: none;
+}
+.link-suscribete-corporativo {width: calc(100% - 50px);display: inline-grid;margin-bottom: 0px;}
+
+.link-suscribete-corporativo a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+.link-suscribete-corporativo, .link-suscribete-corporativo a {
+    font-size: .75rem;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    color:#444;
+}
+div#form-servicios-corporativo .dnnForm ul.dnnActions.dnnClear li {
+    display: none;
+}
+
+div#form-servicios-corporativo .dnnForm ul.dnnActions.dnnClear li:nth-child(1) {
+    display: block;
+        float: none;
+}
+div#form-servicios-corporativo .dnnForm ul.dnnActions.dnnClear li:nth-child(1) a {
+    letter-spacing: 0px;
+    color: white;
+    width: 100%;
+    float: none;
+}
+div#form-servicios-corporativo .dnnForm ul.dnnActions.dnnClear li:nth-child(1) a:hover {
+    background: var(--red-portal-exito-hover);
+}
+/*----------------------------------------------------------
+------------------------------------------------------------
+----------------------------------------------------------*/
+body ._hj_feedback_container ._hj-21t0-__MinimizedWidgetMiddle__label {
+    background: var( --red-portal-exito) !important;
+}
+
+body:not(.dnnEditState) div#dnn_ciudadestitlePane, body:not(.dnnEditState) div#dnn_ciudadesPane1 {
+    display: none;
+}
+
+body:not(.dnnEditState)div#pagos + div {
+    display: none !important;
+}
+
+body:not(.dnnEditState) section#producto {
+    display: none;
+}
+
+body:not(.dnnEditState) article#suscripciones, body:not(.dnnEditState) article#suscripciones.collapse.show {
+    display: none !important;
+}
+
+body:not(.dnnEditState) a[href="#suscripciones"] {
+    display: none;
+}
+
+body:not(.dnnEditState) div#viajeros{
+    display: none !important;
+}
+@media screen and (prefers-color-scheme: dark) {
+   
+}
+@media screen and (prefers-color-scheme: light) {
+  
+}

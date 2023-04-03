@@ -1,0 +1,2666 @@
+/* stylelint-disable value-list-comma-newline-after, value-list-comma-space-after, indentation, declaration-colon-newline-after, font-family-no-missing-generic-family-keyword**/
+/**/
+/* Glyphicons for Bootstrap*/
+/**/
+/* Since icons are fonts, they can be placed anywhere text is placed and are*/
+/* thus automatically sized to match the surrounding child. To use, create an*/
+/* inline element with the appropriate classes, like so:*/
+/**/
+/* <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>*/
+/* Import the fonts*/
+
+@import url("./reset.css");
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    border: none;
+    outline: 0;
+}
+.ui-menu {
+    z-index: 99;
+}
+body #buscador{
+    display: none;
+}
+#contentBgAutofocus {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(0 0 0 / 40%);
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 2;
+}
+input, input:focus, input:active, input:hover{
+    outline: 0;
+    box-shadow: none;
+}
+div#netactica_booking_form select:before {
+    content: "\e920";
+    font-size: 20px;
+}
+ select {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     text-indent: 1px;
+     text-overflow: '';
+}
+ .nav-item {
+     display: inline-block;
+}
+ a:hover {
+     text-decoration: none;
+}
+ .titulos {
+     color: #545454;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    margin-top: 3rem;
+}
+.descripcion {
+     color: #545454;
+     font-family: "Poppins", sans-serif;
+     font-size: 1rem;
+     line-height: 1.5rem;
+     font-weight: 400;
+     margin-bottom: 1.875rem;
+}
+
+
+.glyphicon {
+    color: #545454;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newWidgetDefault .morePop.ccc .row.row-medium-gutters input[type="text"] {
+    height: 28px !important;
+    margin-top: 5px;
+}
+
+button#closemorePop {
+    display: none;
+}
+
+button.btn.btn-danger.btn-number, button.btn.btn-success.btn-number {
+    background: transparent !important;
+    border: 1px solid rgb(0 0 0 / 20%) !important;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 50%;
+    margin: 0px;
+    line-height: 31px;
+}
+button.btn.btn-danger.btn-number span, button.btn.btn-success.btn-number span {
+    line-height: 20px !important;
+    color: rgb(0 0 0 / 79%);
+    font-weight: 600;
+}
+button.btn.btn-danger.btn-number:focus, button.btn.btn-success.btn-number:focus, button.btn.btn-danger.btn-number:hover, button.btn.btn-success.btn-number:hover, button.btn.btn-danger.btn-number:active, button.btn.btn-success.btn-number:active {
+    outline: 0;
+    box-shadow: none !important ;
+}
+
+#netactica_booking_form ul#myTab {
+    background: white;
+    overflow: hidden;
+    margin: -16px 0px 20px 0px;
+    padding: 0px;
+    justify-content: center;
+}
+div#widget-sticky-wrapper.is-sticky article#widget #netactica_booking_form ul#myTab {
+    margin-top: 0px;
+}
+#netactica_booking_form ul#myTab li a {
+    padding: 12px;
+    display: flex;
+    color: #212529;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+#netactica_booking_form ul#myTab li a i {
+    margin-right: 8px;
+    font-size: 1.8rem;
+    display: none;
+}
+
+#netactica_booking_form ul#myTab li a span {
+    font-size: .8rem;
+    line-height: .5rem;
+}
+
+#netactica_booking_form ul#myTab li a:hover {
+    color: var(--red-portal-exito);
+}
+
+#netactica_booking_form ul#myTab li a.active {
+    color: var(--red-portal-exito);
+    font-weight: 600;
+    border-color: var(--red-portal-exito);
+}
+/* Individual icons */
+.glyphicon-asterisk:before { content: "\002a"; } 
+.glyphicon-plus:before { content: "\002b"; } 
+.glyphicon-euro, .glyphicon-eur:before { content: "\20ac"; } 
+.glyphicon-minus:before { content: "\2212"; } 
+.glyphicon-cloud:before { content: "\2601"; } 
+.glyphicon-envelope:before { content: "\2709"; } 
+.glyphicon-pencil:before { content: "\270f"; } 
+.glyphicon-glass:before { content: "\e001"; } 
+.glyphicon-music:before { content: "\e002"; } 
+.glyphicon-search:before { content: "\e003"; } 
+.glyphicon-heart:before { content: "\e005"; } 
+.glyphicon-star:before { content: "\e006"; } 
+.glyphicon-star-empty:before { content: "\e007"; } 
+.glyphicon-user:before { content: "\e008"; } 
+.glyphicon-film:before { content: "\e009"; } 
+.glyphicon-th-large:before { content: "\e010"; } 
+.glyphicon-th:before { content: "\e011"; } 
+.glyphicon-th-list:before { content: "\e012"; } 
+.glyphicon-ok:before { content: "\e013"; } 
+.glyphicon-remove:before { content: "\e014"; } 
+.glyphicon-zoom-in:before { content: "\e015"; } 
+.glyphicon-zoom-out:before { content: "\e016"; } 
+.glyphicon-off:before { content: "\e017"; } 
+.glyphicon-signal:before { content: "\e018"; } 
+.glyphicon-cog:before { content: "\e019"; } 
+.glyphicon-trash:before { content: "\e020"; } 
+.glyphicon-home:before { content: "\e021"; } 
+.glyphicon-file:before { content: "\e022"; } 
+.glyphicon-time:before { content: "\e023"; } 
+.glyphicon-road:before { content: "\e024"; } 
+.glyphicon-download-alt:before { content: "\e025"; } 
+.glyphicon-download:before { content: "\e026"; } 
+.glyphicon-upload:before { content: "\e027"; } 
+.glyphicon-inbox:before { content: "\e028"; } 
+.glyphicon-play-circle:before { content: "\e029"; } 
+.glyphicon-repeat:before { content: "\e030"; } 
+.glyphicon-refresh:before { content: "\e031"; } 
+.glyphicon-list-alt:before { content: "\e032"; } 
+.glyphicon-lock:before { content: "\e033"; } 
+.glyphicon-flag:before { content: "\e034"; } 
+.glyphicon-headphones:before { content: "\e035"; } 
+.glyphicon-volume-off:before { content: "\e036"; } 
+.glyphicon-volume-down:before { content: "\e037"; } 
+.glyphicon-volume-up:before { content: "\e038"; } 
+.glyphicon-qrcode:before { content: "\e039"; } 
+.glyphicon-barcode:before { content: "\e040"; } 
+.glyphicon-tag:before { content: "\e041"; } 
+.glyphicon-tags:before { content: "\e042"; } 
+.glyphicon-book:before { content: "\e043"; } 
+.glyphicon-bookmark:before { content: "\e044"; } 
+.glyphicon-print:before { content: "\e045"; } 
+.glyphicon-camera:before { content: "\e046"; } 
+.glyphicon-font:before { content: "\e047"; } 
+.glyphicon-bold:before { content: "\e048"; } 
+.glyphicon-italic:before { content: "\e049"; } 
+.glyphicon-text-height:before { content: "\e050"; } 
+.glyphicon-text-width:before { content: "\e051"; } 
+.glyphicon-align-left:before { content: "\e052"; } 
+.glyphicon-align-center:before { content: "\e053"; } 
+.glyphicon-align-right:before { content: "\e054"; } 
+.glyphicon-align-justify:before { content: "\e055"; } 
+.glyphicon-list:before { content: "\e056"; } 
+.glyphicon-indent-left:before { content: "\e057"; } 
+.glyphicon-indent-right:before { content: "\e058"; } 
+.glyphicon-facetime-video:before { content: "\e059"; } 
+.glyphicon-picture:before { content: "\e060"; } 
+.glyphicon-map-marker:before { content: "\e062"; } 
+.glyphicon-adjust:before { content: "\e063"; } 
+.glyphicon-tint:before { content: "\e064"; } 
+.glyphicon-edit:before { content: "\e065"; } 
+.glyphicon-share:before { content: "\e066"; } 
+.glyphicon-check:before { content: "\e067"; } 
+.glyphicon-move:before { content: "\e068"; } 
+.glyphicon-step-backward:before { content: "\e069"; } 
+.glyphicon-fast-backward:before { content: "\e070"; } 
+.glyphicon-backward:before { content: "\e071"; } 
+.glyphicon-play:before { content: "\e072"; } 
+.glyphicon-pause:before { content: "\e073"; } 
+.glyphicon-stop:before { content: "\e074"; } 
+.glyphicon-forward:before { content: "\e075"; } 
+.glyphicon-fast-forward:before { content: "\e076"; } 
+.glyphicon-step-forward:before { content: "\e077"; } 
+.glyphicon-eject:before { content: "\e078"; } 
+.glyphicon-chevron-left:before { content: "\e079"; } 
+.glyphicon-chevron-right:before { content: "\e080"; } 
+.glyphicon-plus-sign:before { content: "\e081"; } 
+.glyphicon-minus-sign:before { content: "\e082"; } 
+.glyphicon-remove-sign:before { content: "\e083"; } 
+.glyphicon-ok-sign:before { content: "\e084"; } 
+.glyphicon-question-sign:before { content: "\e085"; } 
+.glyphicon-info-sign:before { content: "\e086"; } 
+.glyphicon-screenshot:before { content: "\e087"; } 
+.glyphicon-remove-circle:before { content: "\e088"; } 
+.glyphicon-ok-circle:before { content: "\e089"; } 
+.glyphicon-ban-circle:before { content: "\e090"; } 
+.glyphicon-arrow-left:before { content: "\e091"; } 
+.glyphicon-arrow-right:before { content: "\e092"; } 
+.glyphicon-arrow-up:before { content: "\e093"; } 
+.glyphicon-arrow-down:before { content: "\e094"; } 
+.glyphicon-share-alt:before { content: "\e095"; } 
+.glyphicon-resize-full:before { content: "\e096"; } 
+.glyphicon-resize-small:before { content: "\e097"; } 
+.glyphicon-exclamation-sign:before { content: "\e101"; } 
+.glyphicon-gift:before { content: "\e102"; } 
+.glyphicon-leaf:before { content: "\e103"; } 
+.glyphicon-fire:before { content: "\e104"; } 
+.glyphicon-eye-open:before { content: "\e105"; } 
+.glyphicon-eye-close:before { content: "\e106"; } 
+.glyphicon-warning-sign:before { content: "\e107"; } 
+.glyphicon-plane:before { content: "\e108"; } 
+.glyphicon-calendar:before { content: "\e109"; } 
+.glyphicon-random:before { content: "\e110"; } 
+.glyphicon-comment:before { content: "\e111"; } 
+.glyphicon-magnet:before { content: "\e112"; } 
+.glyphicon-chevron-up:before { content: "\e113"; } 
+.glyphicon-chevron-down:before { content: "\e114"; } 
+.glyphicon-retweet:before { content: "\e115"; } 
+.glyphicon-shopping-cart:before { content: "\e116"; } 
+.glyphicon-folder-close:before { content: "\e117"; } 
+.glyphicon-folder-open:before { content: "\e118"; } 
+.glyphicon-resize-vertical:before { content: "\e119"; } 
+.glyphicon-resize-horizontal:before { content: "\e120"; } 
+.glyphicon-hdd:before { content: "\e121"; } 
+.glyphicon-bullhorn:before { content: "\e122"; } 
+.glyphicon-bell:before { content: "\e123"; } 
+.glyphicon-certificate:before { content: "\e124"; } 
+.glyphicon-thumbs-up:before { content: "\e125"; } 
+.glyphicon-thumbs-down:before { content: "\e126"; } 
+.glyphicon-hand-right:before { content: "\e127"; } 
+.glyphicon-hand-left:before { content: "\e128"; } 
+.glyphicon-hand-up:before { content: "\e129"; } 
+.glyphicon-hand-down:before { content: "\e130"; } 
+.glyphicon-circle-arrow-right:before { content: "\e131"; } 
+.glyphicon-circle-arrow-left:before { content: "\e132"; } 
+.glyphicon-circle-arrow-up:before { content: "\e133"; } 
+.glyphicon-circle-arrow-down:before { content: "\e134"; } 
+.glyphicon-globe:before { content: "\e135"; } 
+.glyphicon-wrench:before { content: "\e136"; } 
+.glyphicon-tasks:before { content: "\e137"; } 
+.glyphicon-filter:before { content: "\e138"; } 
+.glyphicon-briefcase:before { content: "\e139"; } 
+.glyphicon-fullscreen:before { content: "\e140"; } 
+.glyphicon-dashboard:before { content: "\e141"; } 
+.glyphicon-paperclip:before { content: "\e142"; } 
+.glyphicon-heart-empty:before { content: "\e143"; } 
+.glyphicon-link:before { content: "\e144"; } 
+.glyphicon-phone:before { content: "\e145"; } 
+.glyphicon-pushpin:before { content: "\e146"; } 
+.glyphicon-usd:before { content: "\e148"; } 
+.glyphicon-gbp:before { content: "\e149"; } 
+.glyphicon-sort:before { content: "\e150"; } 
+.glyphicon-sort-by-alphabet:before { content: "\e151"; } 
+.glyphicon-sort-by-alphabet-alt:before { content: "\e152"; } 
+.glyphicon-sort-by-order:before { content: "\e153"; } 
+.glyphicon-sort-by-order-alt:before { content: "\e154"; } 
+.glyphicon-sort-by-attributes:before { content: "\e155"; } 
+.glyphicon-sort-by-attributes-alt:before { content: "\e156"; } 
+.glyphicon-unchecked:before { content: "\e157"; } 
+.glyphicon-expand:before { content: "\e158"; } 
+.glyphicon-collapse-down:before { content: "\e159"; } 
+.glyphicon-collapse-up:before { content: "\e160"; } 
+.glyphicon-log-in:before { content: "\e161"; } 
+.glyphicon-flash:before { content: "\e162"; } 
+.glyphicon-log-out:before { content: "\e163"; } 
+.glyphicon-new-window:before { content: "\e164"; } 
+.glyphicon-record:before { content: "\e165"; } 
+.glyphicon-save:before { content: "\e166"; } 
+.glyphicon-open:before { content: "\e167"; } 
+.glyphicon-saved:before { content: "\e168"; } 
+.glyphicon-import:before { content: "\e169"; } 
+.glyphicon-export:before { content: "\e170"; } 
+.glyphicon-send:before { content: "\e171"; } 
+.glyphicon-floppy-disk:before { content: "\e172"; } 
+.glyphicon-floppy-saved:before { content: "\e173"; } 
+.glyphicon-floppy-remove:before { content: "\e174"; } 
+.glyphicon-floppy-save:before { content: "\e175"; } 
+.glyphicon-floppy-open:before { content: "\e176"; } 
+.glyphicon-credit-card:before { content: "\e177"; } 
+.glyphicon-transfer:before { content: "\e178"; } 
+.glyphicon-cutlery:before { content: "\e179"; } 
+.glyphicon-header:before { content: "\e180"; } 
+.glyphicon-compressed:before { content: "\e181"; } 
+.glyphicon-earphone:before { content: "\e182"; } 
+.glyphicon-phone-alt:before { content: "\e183"; } 
+.glyphicon-tower:before { content: "\e184"; } 
+.glyphicon-stats:before { content: "\e185"; } 
+.glyphicon-sd-video:before { content: "\e186"; } 
+.glyphicon-hd-video:before { content: "\e187"; } 
+.glyphicon-subtitles:before { content: "\e188"; } 
+.glyphicon-sound-stereo:before { content: "\e189"; } 
+.glyphicon-sound-dolby:before { content: "\e190"; } 
+.glyphicon-sound-5-1:before { content: "\e191"; } 
+.glyphicon-sound-6-1:before { content: "\e192"; } 
+.glyphicon-sound-7-1:before { content: "\e193"; } 
+.glyphicon-copyright-mark:before { content: "\e194"; } 
+.glyphicon-registration-mark:before { content: "\e195"; } 
+.glyphicon-cloud-download:before { content: "\e197"; } 
+.glyphicon-cloud-upload:before { content: "\e198"; } 
+.glyphicon-tree-conifer:before { content: "\e199"; } 
+.glyphicon-tree-deciduous:before { content: "\e200"; } 
+.glyphicon-cd:before { content: "\e201"; } 
+.glyphicon-save-file:before { content: "\e202"; } 
+.glyphicon-open-file:before { content: "\e203"; } 
+.glyphicon-level-up:before { content: "\e204"; } 
+.glyphicon-copy:before { content: "\e205"; } 
+.glyphicon-paste:before { content: "\e206"; } 
+/* The following 2 Glyphicons are omitted for the time being because*/
+/* they currently use Unicode codepoints that are outside the*/
+/* Basic Multilingual Plane (BMP). Older buggy versions of WebKit can't handle*/
+/* non-BMP codepoints in CSS string escapes, and thus can't display these two icons.*/
+/* Notably, the bug affects some older versions of the Android Browser.*/
+/* More info: https://github.com/twbs/bootstrap/issues/10106 */
+.glyphicon-door:before { content: "\1f6aa"; }
+.glyphicon-key:before { content: "\1f511"; }
+.glyphicon-alert:before { content: "\e209"; }
+.glyphicon-equalizer:before { content: "\e210"; }
+.glyphicon-king:before { content: "\e211"; }
+.glyphicon-queen:before { content: "\e212"; }
+.glyphicon-pawn:before { content: "\e213"; }
+.glyphicon-bishop:before { content: "\e214"; }
+.glyphicon-knight:before { content: "\e215"; }
+.glyphicon-baby-formula:before { content: "\e216"; }
+.glyphicon-tent:before { content: "\26fa"; }
+.glyphicon-blackboard:before { content: "\e218"; }
+.glyphicon-bed:before { content: "\e219"; }
+.glyphicon-apple:before { content: "\f8ff"; }
+.glyphicon-erase:before { content: "\e221"; }
+.glyphicon-hourglass:before { content: "\231b"; }
+.glyphicon-lamp:before { content: "\e223"; }
+.glyphicon-duplicate:before { content: "\e224"; }
+.glyphicon-piggy-bank:before { content: "\e225"; }
+.glyphicon-scissors:before { content: "\e226"; }
+.glyphicon-bitcoin:before { content: "\e227"; }
+.glyphicon-btc:before { content: "\e227"; }
+.glyphicon-xbt:before { content: "\e227"; }
+.glyphicon-yen:before { content: "\00a5"; }
+.glyphicon-jpy:before { content: "\00a5"; }
+.glyphicon-ruble:before { content: "\20bd"; }
+.glyphicon-rub:before { content: "\20bd"; }
+.glyphicon-scale:before { content: "\e230"; }
+.glyphicon-ice-lolly:before { content: "\e231"; }
+.glyphicon-ice-lolly-tasted:before { content: "\e232"; }
+.glyphicon-education:before { content: "\e233"; }
+.glyphicon-option-horizontal:before { content: "\e234"; }
+.glyphicon-option-vertical:before { content: "\e235"; }
+.glyphicon-menu-hamburger:before { content: "\e236"; }
+.glyphicon-modal-window:before { content: "\e237"; }
+.glyphicon-oil:before { content: "\e238"; }
+.glyphicon-grain:before { content: "\e239"; }
+.glyphicon-sunglasses:before { content: "\e240"; }
+.glyphicon-text-size:before { content: "\e241"; }
+.glyphicon-text-color:before { content: "\e242"; }
+.glyphicon-text-background:before { content: "\e243"; }
+.glyphicon-object-align-top:before { content: "\e244"; }
+.glyphicon-object-align-bottom:before { content: "\e245"; }
+.glyphicon-object-align-horizontal:before { content: "\e246"; } 
+.glyphicon-object-align-left:before { content: "\e247"; }
+.glyphicon-object-align-vertical:before { content: "\e248"; }
+.glyphicon-object-align-right:before { content: "\e249"; }
+.glyphicon-triangle-right:before { content: "\e250"; }
+.glyphicon-triangle-left:before { content: "\e251"; }
+.glyphicon-triangle-bottom:before { content: "\e252"; }
+.glyphicon-triangle-top:before { content: "\e253"; }
+.glyphicon-console:before { content: "\e254"; }
+.glyphicon-superscript:before { content: "\e255"; }
+.glyphicon-subscript:before { content: "\e256"; }
+.glyphicon-menu-left:before { content: "\e257"; }
+.glyphicon-menu-right:before { content: "\e258"; }
+.glyphicon-menu-down:before { content: "\e259"; }
+.glyphicon-menu-up:before { content: "\e260"; }
+
+
+
+.ui-menu.ui-widget.ui-widget-content::-webkit-scrollbar-track, div.morePop::-webkit-scrollbar-track, div#destinosSugeridos::-webkit-scrollbar-track, div.morePop.morePopHabitaciones .contenedor-habitaciones::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.ui-menu.ui-widget.ui-widget-content::-webkit-scrollbar, div.morePop::-webkit-scrollbar, div#destinosSugeridos::-webkit-scrollbar, div.morePop.morePopHabitaciones .contenedor-habitaciones::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.ui-menu.ui-widget.ui-widget-content::-webkit-scrollbar-thumb, div.morePop::-webkit-scrollbar-thumb, div#destinosSugeridos::-webkit-scrollbar-thumb,  div.morePop.morePopHabitaciones .contenedor-habitaciones::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #e1e1e1;
+}
+/*-------------------------------------------------------------------------------
+------------------------------MENSAJE DE ERROR-----------------------------------
+-------------------------------------------------------------------------------*/
+.bVErrMsgContainer {
+    width: 94%;
+}
+div.formulario .bvalidator_errmsg {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+}
+
+div.formulario .bVErrMsgContainer {
+    position: relative !important;
+}
+.ocultar-input input + .bVErrMsgContainer {
+    width: 100%;
+    position: relative !important;
+    margin: 10px 0px;
+}
+.ocultar-input input + .bVErrMsgContainer .bvalidator_errmsg {
+    position: relative !important;
+    top: 0px !important;
+}
+.ocultar-input input + .bVErrMsgContainer .bvalidator_errmsg:before, .ocultar-input input + .bVErrMsgContainer .bvalidator_errmsg:after {
+    display: none;
+}
+.bvalidator_errmsg {
+    background: var(--red-portal-exito);
+    color: white;
+    z-index: 2;
+    padding: 8px 6px;
+    width: 100%;
+    font-size: .6rem;
+    line-height: .6rem;
+    cursor: pointer;
+    border: 1px solid var(--red-portal-exito);
+    border-radius: 4px;
+position: relative !important;}
+
+.bvalidator_errmsg .close-message, .bvalidator_errmsg .close-message div {
+    position: relative;
+    display: block;
+}
+
+.bvalidator_errmsg .close-message div span {
+    position: relative !important;
+    transform: none !important;
+    right: auto !important;
+    top: auto !important;
+    font-size: 1.5rem !important;
+    line-height: .5 !important;
+    display: block;
+    width: auto !important;
+    height: 15px;
+    color: white!important;
+    background: transparent !important;
+}
+
+.bvalidator_errmsg .close-message {
+    margin-right: 4px;
+}
+
+.bvalidator_errmsg .message span {
+    font-size: .7rem !important;
+    display: block;
+    line-height: 1.2 !important;
+}
+
+
+.bvalidator_errmsg:before, .bvalidator_errmsg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+    margin-top: 0px;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 8px;
+    border-bottom-color: var(--red-portal-exito);
+    border-top-width: 0;
+}
+.bvalidator_errmsg:after {
+    top: -8px;
+    border-bottom-color: var(--red-portal-exito);
+}
+
+/*-------------------------------------------------------------------------------
+------------------------------LISTADO DE CIUDADES--------------------------------
+-------------------------------------------------------------------------------*/
+.ui-menu.ui-widget.ui-widget-content {
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 2px 8px rgb(127 127 127 / 15%), 0px 3px 5px rgb(121 121 121 / 5%) inset;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(84 84 84 / 20%);
+    z-index: 11111;
+}
+
+.ui-menu .ui-menu-item a {
+    font-size: .8rem;
+    margin: 0px 0px !important;
+    cursor: pointer;
+    display: block;
+    border-bottom: 1px solid #e3e3e3 !important;
+    color: #737373;
+    padding: 7px !important;
+}
+.ui-menu .ui-menu-item:last-child a {
+    border-bottom: none !important;
+}
+.ui-menu .ui-menu-item span.icon-ida-regreso {
+    font-size: 0.8rem;
+}
+
+.ui-menu .ui-menu-item a.ui-state-active {
+    background: #e3e3e3;
+    border: none;
+    margin: 0px 0px !important;
+}
+
+.ui-menu .ui-menu-item a span.nts-text-secondary {
+    font-size: .8rem;
+}
+
+.ui-menu .ui-menu-item a [class^="icon-"] {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    line-height: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.ui-menu .ui-menu-item a [class^="icon-destino"] {
+    font-size: 1.2rem;
+}
+
+
+.ui-menu .ui-menu-item a table tbody tr td {
+    line-height: 1.2;
+    position: relative;
+}
+.ui-menu .ui-menu-item {
+    background: white;
+    transition: background .3s;
+}
+
+.ui-menu .ui-menu-item:hover {
+    background: rgb(0 0 0 / 5%);
+}
+
+
+
+
+/*-------------------------------------------------------------------------------
+---------------------------------PASASJEROS--------------------------------------
+-------------------------------------------------------------------------------*/
+
+div.morePop.morePopHabitaciones {
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: auto;
+}
+div.morePop{
+    position: absolute;
+    background: white;
+    box-shadow: 0px 2px 8px rgb(127 127 127 / 15%), 0px 3px 5px rgb(121 121 121 / 5%) inset;
+    border: 1px solid rgb(84 84 84 / 20%);
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    bottom: auto;
+    z-index: 10;
+    min-height: 270px;
+    border-radius: 10px;
+}
+div.morePop.debajo {
+    bottom: auto;
+    top: auto;
+}
+div.morePop button.close {
+    display: block !important;
+    width: 20px;
+    height: 20px;
+    background: white;
+    opacity: 1;
+    color: rgb(84 84 84 / 50%);
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+div.morePop .container-fluid.items-pasajeros .col-7.col-sm-5 input, div.morePop .container-fluid.items-pasajeros .col-7.col-sm-6 input {
+    width: 16px;
+    padding: 0px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: .8rem;
+    background: none;
+    border: none;
+}
+div.morePop .container-fluid.items-pasajeros {
+    margin: 0px;
+    border-bottom: none;
+    padding: 0px 22px;
+    position: relative;
+}
+div.morePop.morePopHabitaciones .container-fluid.items-pasajeros {
+    border-bottom: 1px solid #e6e6e6;
+}
+div.morePop.morePopHabitaciones .contenedor-habitaciones {
+    height: 135px;
+    overflow: auto;
+    position: relative;
+}
+div.morePop.morePopHabitaciones > .row.mt-2:before {
+    content: " ";
+    width: 100%;
+    height: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    opacity: 0.05;
+}
+div.morePop .container-fluid.items-pasajeros > .row .display-input {
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+}
+div.morePop .container-fluid h5 {
+    font-size: .9rem;
+    margin-top: 4px;
+}
+div.morePop .container-fluid.items-pasajeros .col-7.col-sm-5 span.input-group-btn, div.morePop .container-fluid.items-pasajeros .col-7.col-sm-6 span.input-group-btn {
+    height: 30px;
+    line-height: 30px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+div.morePop .container-fluid.items-pasajeros .col-7.col-sm-5 .value-number {
+    margin-bottom: 0px;
+    height: 28px;
+    line-height: 30px;
+    font-size: .8rem;
+    min-width: 10px;
+    text-align: center;
+    width: 20px;
+}
+div.morePop .container-fluid.items-pasajeros select {
+    font-size: .8rem;
+    width: 100%;
+    border: 1px solid rgb(84 84 84 / 20%);
+    border-radius: 8px;
+    padding: 0px 0px 0px 10px;
+    box-shadow: 0px 5px 8px rgb(127 127 127 / 5%), 0px 3px 5px rgb(121 121 121 / 5%) inset;
+    height: 30px;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    margin-bottom: 10px;
+}
+div.morePop button.close span {
+    line-height: 6px;
+    height: 5px;
+    display: block;
+}
+div.morePop header p.titulo {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #e5e5e5;
+}
+div.morePop.morePopHabitaciones .items-pasajeros p.titulo {
+    border-bottom: 1px solid #e6e6e6;
+}
+div.morePop .container-fluid.items-pasajeros > .row > .col-sm-5 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+div.morePop .container-fluid.items-pasajeros > .row > .col-sm-7 {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+div.morePop .items-pasajeros p.titulo {
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+
+
+div.morePop .container-fluid.items-pasajeros > .row > div:nth-child(1) {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.morePop div#txtHotelNumPassengers {
+    margin-top: 0px !important;
+    margin-bottom: 4px;
+}
+div.morePop div#txtHotelNumPassengers > div {
+    margin-bottom: 10px;
+}
+div.morePop .items-pasajeros div.edad-ninos{
+    line-height: 24px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    font-size: .8rem;
+    padding: 0px;
+    margin-right: 0px !important;
+}
+.ocultar-input{
+    margin: 0px;
+}
+.ocultar-input input {
+    position: absolute;
+    left: 0px;
+    visibility: hidden;
+    top: -30px;
+}
+
+div.morePop header {
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+div.morePop.morePopHabitaciones header h4{
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+}
+div.morePop .container-fluid.items-pasajeros strong {
+    font-size: .8rem;
+}
+
+div.morePop .container-fluid.items-pasajeros span {
+    font-size: .8rem;
+    line-height: 100%;
+    display: block;
+    top: initial;
+}
+div.morePop button.btn.btn-danger.bg--widget{
+    background: var(--red-portal-exito) !important;
+    border: none;
+    border-radius: 0px;
+    font-size: .8rem;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+div.morePop button.btn.btn-danger.bg--widget:hover, div.morePop button.btn.btn-danger.bg--widget:active, div.morePop button.btn.btn-danger.bg--widget:focus{
+    background: var(--red-portal-exito-hover) !important;
+}
+div.morePop.morePopHabitaciones > .row.mt-2 {
+    margin-top: 0px !important;
+    position: relative;
+}
+div.morePop button.btn.btn-danger.btn-danger--outline.bg--widget {
+    background: none  !important;
+    color:var(--red-portal-exito);
+    border: none;
+    border-radius: 0px;
+    font-size: .8rem;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+div.morePop button.btn.btn-danger.btn-danger--outline.bg--widget:hover {
+    color: var(--red-portal-exito-hover);
+}
+div.morePop .container-fluid.items-pasajeros .close {
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    opacity: 1;
+    display: block;
+    float: none;
+    line-height: 1;
+}
+
+div.morePop .container-fluid.items-pasajeros .close a {
+    font-size: .8rem;
+    color: var(--red-portal-exito);
+    font-weight: 400;
+    display: block;
+}
+/*-------------------------------------------------------------------------------
+------------------------------CALENDARIO--------------------------------
+-------------------------------------------------------------------------------*/
+div#ui-datepicker-div {
+    box-shadow: 0px 2px 8px rgb(127 127 127 / 15%), 0px 3px 5px rgb(121 121 121 / 5%) inset;
+    /* padding: 20px; */
+    border-radius: 10px;
+    border: 1px solid rgb(84 84 84 / 20%);
+    width: auto !important;
+}
+div#ui-datepicker-div div.ui-datepicker-header.ui-widget-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+div#ui-datepicker-div .ui-datepicker-group {
+    padding: 20px;
+}
+.ui-datepicker.ui-datepicker-multi {
+    border: 0px;
+    border-radius: 0px;
+    z-index: 9999999999999999999999999999999999 !important;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane{
+    display: none;
+}
+.ui-datepicker-buttonpane.ui-widget-content.active {
+    display: block;
+}.ui-datepicker-buttonpane.ui-widget-content.active {
+    padding: 16px 24px;
+    border-radius: 0px 0px 16px 16px;
+}
+.ui-datepicker-buttonpane.ui-widget-content.active {
+    padding: 8px 24px 16px 24px;
+    border-radius: 0px 0px 16px 16px;
+}
+.ui-datepicker-buttonpane.ui-widget-content.active span {
+    font-size: .7rem;
+    line-height: 1;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.ui-datepicker-buttonpane.ui-widget-content.active .content-range-price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ui-datepicker-buttonpane.ui-widget-content.active .content-range-price span.price {
+    display: block;
+    width: auto;
+    padding: 8px 10px;
+    margin: 0px 4px;
+    border-radius: 6px;
+}
+
+.ui-datepicker-buttonpane.ui-widget-content.active .content-range-price span.price.color-price-1 {
+    background: #daf2e5;
+}
+
+.ui-datepicker-buttonpane.ui-widget-content.active .content-range-price span.price.color-price-2 {
+    background: #ffe6be;
+}
+
+.ui-datepicker-buttonpane.ui-widget-content.active .content-range-price span.price.color-price-3 {
+    background: #ffc4c9;
+}
+
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header {
+    background: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-prev {
+    /* background: url(https://www.viajesexito.com/Portals/1/Skins/renovacion/widget/css/images/arrow_01.png) no-repeat center center; */
+    background: white;
+    background-size: 10px;
+    border: none;
+    margin: 0px;
+    top: 2px;
+    left: 2px;
+    display: flex;
+    justify-content: center;
+}
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-prev:before, .ui-datepicker .ui-datepicker-prev:before{
+    font-family: 'icomoon' !important;
+    content: "\e843";
+    color:var(--red-portal-exito);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-next:before, .ui-datepicker .ui-datepicker-next:before {
+    font-family: 'icomoon' !important;
+    content: "\e844";
+    color:var(--red-portal-exito);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-prev.ui-state-hover,  {
+    border: none;
+    left: 2px;
+    top: 2px;
+}
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-state-disabled {
+    filter: grayscale(1);
+    opacity: 0.1;
+}
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-corner-all span,
+.ui-datepicker .ui-datepicker-prev span, 
+.ui-datepicker .ui-datepicker-next span {
+    display: none !important;
+}
+
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-next,
+.ui-datepicker .ui-datepicker-next {
+    background: white;
+    background-size: 10px;
+    border: none;
+    margin: 0px;
+    right: 2px;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    width: 2.8rem !important;
+    height: 2.8rem !important;
+}
+table.ui-datepicker-calendar tbody td.color-price-1 a {
+    background: #daf2e5;
+}
+table.ui-datepicker-calendar tbody td.color-price-2 a {
+    background: #ffe6be;
+}
+table.ui-datepicker-calendar tbody td.color-price-3 a {
+    background: #ffc4c9;
+}
+.ui-datepicker.ui-datepicker-multi .ui-datepicker-group .ui-datepicker-header.ui-widget-header a.ui-datepicker-next.ui-state-hover,  {
+    border: none;
+    right: 2px;
+    top: 2px;
+}
+
+button.ui-datepicker-close.ui-state-default {
+    display: none;
+}
+
+table.ui-datepicker-calendar .ui-datepicker-multi .ui-datepicker-buttonpane {
+    border: none;
+}
+
+table.ui-datepicker-calendar .ui-state-default, table.ui-datepicker-calendar .ui-widget-content .ui-state-default, table.ui-datepicker-calendar .ui-widget-header .ui-state-default {
+    border-color: white;
+    background: white;
+}
+
+table.ui-datepicker-calendar .ui-state-active-from-to:before, table.ui-datepicker-calendar .ui-state-active-from-to a:before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    border-color: black;
+    background: black;
+    position: absolute;
+    border-radius: 7px;
+    z-index: -1;
+    opacity: 0.1;
+}
+table.ui-datepicker-calendar .ui-state-active-from-to-hover:before, table.ui-datepicker-calendar .ui-state-active-from-to-hover a:before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    border-color: black;
+    background: black;
+    position: absolute;
+    border-radius: 8px;
+    z-index: -1;
+    opacity: 0.1;
+}
+table.ui-datepicker-calendar .ui-state-disabled.ui-state-active-day span {
+    border-color: white !important;
+    background: white !important;
+    color: #555555;
+}
+
+table.ui-datepicker-calendar .ui-state-active-to, table.ui-datepicker-calendar .ui-state-active-from{
+    opacity: 1;
+}
+table.ui-datepicker-calendar td a.ui-state-hover{
+    border: 1px solid #bfbfbf;
+    color: #585858;
+    /* background: white; */
+}
+table.ui-datepicker-calendar .ui-state-active-day a {
+    color: var(--red-portal-exito);
+    border-color: var(--red-portal-exito);
+}
+table.ui-datepicker-calendar .ui-state-active-from + .ui-state-active-day a {
+    color: #545454;
+}
+table.ui-datepicker-calendar td.ui-state-active-from a.ui-state-hover, table.ui-datepicker-calendar td.ui-state-active-to a.ui-state-hover{
+    border: 1px solid var(--red-portal-exito) !important;  
+    color: white !important;
+}
+table.ui-datepicker-calendar .ui-state-active-to a, table.ui-datepicker-calendar .ui-state-active-from a, table.ui-datepicker-calendar .ui-state-active-to span, table.ui-datepicker-calendar .ui-state-active-from span {
+    background: var(--red-portal-exito) !important;
+    color: white !important;
+    border-color: var(--red-portal-exito) !important;
+}
+table.ui-datepicker-calendar .ui-state-default, table.ui-datepicker-calendar .ui-widget-content .ui-state-default, table.ui-datepicker-calendar .ui-widget-header .ui-state-default {
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 8px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+table.ui-datepicker-calendar td.ui-datepicker-current-day[data-handler="selectDay"] {
+    border-color: var(--red-portal-exito);
+}
+table.ui-datepicker-calendar .ui-datepicker th, table.ui-datepicker-calendar .ui-datepicker td, table.ui-datepicker-calendar .ui-datepicker td span, table.ui-datepicker-calendar .ui-datepicker td a {
+    width: 20px;
+    height: 38px;
+    padding: 0px !important;
+    border: none !important;
+}
+table.ui-datepicker-calendar tbody tr, table.ui-datepicker-calendar thead tr {
+    display: flex;
+}
+table.ui-datepicker-calendar thead tr th {
+    min-width: 38px;
+    width: calc(100% / 7);
+}
+table.ui-datepicker-calendar td span, .ui-datepicker td a {
+    width: 45px;
+    line-height: 45px;
+    height: 45px;
+}
+table.ui-datepicker-calendar tbody tr td span {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    line-height: 1;
+    top: 31px;
+    font-size: 9px;
+    text-align: center;
+    letter-spacing: -0.3pt;
+}
+table.ui-datepicker-calendar tbody tr td.ui-state-active-from span, table.ui-datepicker-calendar tbody tr td.ui-state-active-to span {
+    color: white;
+}
+table.ui-datepicker-calendar .ui-state-default {
+    position: relative;
+}
+table.ui-datepicker-calendar td.ui-state-highlight + td[data-handler="selectDay"]:not(.ui-state-highlight){
+    border-color: #e6e6e6 !important;
+    background: #e6e6e6 !important;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial;
+}
+table.ui-datepicker-calendar .ui-state-active-from.border-right{
+    border-color: #e6e6e6 !important;
+    background: #e6e6e6 !important;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: initial;
+    border-bottom-right-radius: initial;
+}
+table.ui-datepicker-calendar td.ui-datepicker-week-end.ui-datepicker-days-cell-over.ui-datepicker-current-day, table.ui-datepicker-calendar td.ui-datepicker-week-end.ui-red {
+    border-color: #e6e6e6 !important;
+    background: #e6e6e6 !important;
+}
+table.ui-datepicker-calendar .ui-state-active-to.border-left {
+    border-color: #e6e6e6 !important;
+    background: #e6e6e6 !important;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial;
+}
+table.ui-datepicker-calendar td.ui-state-highlight + td[data-handler="selectDay"]:not(.ui-state-highlight) a,  table.ui-datepicker-calendar td.ui-red a.ui-state-default, table.ui-datepicker-calendar td.ui-datepicker-unselectable.ui-state-disabled.ui-red span{
+    background: var(--red-portal-exito) !important;
+    border-color: var(--red-portal-exito) !important;
+    color: white;
+}
+table.ui-datepicker-calendar td.ui-datepicker-unselectable.ui-state-disabled.ui-red {
+    opacity: 1;
+}
+table.ui-datepicker-calendar tbody td {
+    min-width: 45px;
+    width: calc(100% / 7);
+    height: 45px;
+    border: none !important;
+    padding: 0px !important;
+    position: relative;
+}
+.title-datapicker {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+}
+
+.ui-datepicker-title {
+    font-weight: 700;
+    font-size: .9rem;
+}
+.d-md-flex.revolve {
+    align-items: center;
+}
+
+div#netactica_booking_form #revolve {
+        color: var(--red-portal-exito);
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 24px;
+        cursor: pointer;
+        transition: transform .5s;
+        display: flex;
+        align-content: center;
+        align-items: center;
+}
+
+div#netactica_booking_form #revolve span {
+    color: var(--red-portal-exito) !important;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    width: 30px;
+    z-index: 1;
+    background: white;
+    top: inherit;
+    right: inherit;
+    margin: 0px;
+    position: relative;
+}
+div#netactica_booking_form #revolve.border-middle:before {
+    content: ' ';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background: rgb(84 84 84 / 20%);
+    left: calc(50% - 3px);
+    z-index: 0;
+}
+
+div#netactica_booking_form #revolve.border-middle {
+    position: relative;
+}
+
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+div#netactica_booking_form {
+    max-width: 1280px;
+    margin: 0px auto;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 10%);
+    border-radius: 8px;
+    width: 100%;
+    background: white;
+    position: relative;
+    padding: 18px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab {
+    width: 100%;
+    max-width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget{
+    width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.SoloIdaWidth {
+    width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets {
+    max-width: none;
+    flex: none;
+    padding-right: 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets button.btn.btn-select {
+    height: 60px;
+    padding: 10px 30px 10px 0px;
+    font-size: .8rem !important;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: #545454;
+    font-weight: 400 !important;
+    opacity: 1;
+    display: none;
+    z-index: 1;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets button.btn.btn-select:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    margin-top: -2px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid #000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu {
+    margin: 0px;
+    padding: 0px 0px;
+    border-radius: 0px;
+    border: none;
+    font-weight: 300;
+    box-shadow: none;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background: none;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    z-index: 1;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li {
+    background: none;
+    position: relative;
+    padding: 0px;
+    border: none;
+    margin: 0px 10px 0px 0px;
+    z-index: 1;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li:last-child{
+    border-bottom: none;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li label {
+    margin-bottom: 0px;
+    padding: 1px 15px 1px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    min-height: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #545454;
+    font-size: .8rem;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=radio], div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input[type=radio]{
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 9px);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: none;
+    appearance: none;
+    margin: 0px;
+    min-width: 0px;
+    padding: 0px;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.2rem rgb(2 2 2 / 8%), -0.2rem -0.2rem 0.5rem #e6e6e687;
+border: 1px solid rgb(84 84 84 / 20%);}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=radio] {
+    /* display: none; */
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=checkbox], div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    min-height: auto;
+    border-radius: 2px;
+    border: none;
+    appearance: none;
+    margin: 0px;
+    min-width: 0px;
+    padding: 0px;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.2rem #02020214, -0.2rem -0.2rem 0.5rem #e6e6e687;
+    font-family: "Font Awesome 5 Free" !important;
+    position: relative;
+    margin-right: 6px;
+    border: 1px solid rgb(84 84 84 / 20%);
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=checkbox]:checked, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input[type=checkbox]:checked{
+    background: var(--red-portal-exito);
+    border-color: var(--red-portal-exito);
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=checkbox]:checked:before, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input[type=checkbox]:checked:before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    text-rendering: auto;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    line-height: 0px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: .4;
+    color: white;
+    opacity: 1;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=radio]:before {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: calc(50% - 5px);
+    background: black;
+    opacity: .3;
+    top: calc(50% - 5px);
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu input[type=radio]:checked:before, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input[type=radio]:checked:before {
+    background: var(--red-portal-exito);
+    opacity: 1;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas select{
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    font-size: .8rem !important;
+    min-height: 40px;
+    height: auto;
+    color: #545454;
+    background: transparent;
+    padding: 0px 30px 0px 10px;
+    z-index: 0;
+    outline: 0;
+    box-shadow: none;
+    font-weight: 400 !important;
+    z-index: 1;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input#AirportPredictiveFrom_netactica_car, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input#AirportPredictiveTo_netactica_car {
+    padding-right: 44px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input[disabled="disabled"], div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input[disabled="disabled"]::placeholder, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas span[class^="icon-"][disabled="disabled"] {
+    background: #e1e1e1;
+    color: #afafaf !important;
+    border-radius: 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas span[class^="icon-"][disabled="disabled"] {
+    border-radius: 0px 5px 5px 0px;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline span#opcionesEspecialesAction,
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline span#opcionesEspecialesActionMulti{
+    cursor: pointer;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas {
+    padding-right: 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row {
+    margin-top: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin: 0px;
+}
+.border-sombra {
+    border: 1px solid rgb(84 84 84 / 20%);
+    border-radius: 8px;
+    width: calc(100% - 10px);
+    box-shadow: 0px 3px 5px rgb(121 121 121 / 5%) inset;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div {
+    padding: 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.opciones-especiales {
+    margin-top: 14px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row.items-opciones-especiales {
+    padding: 0px 14px;
+    margin-bottom: 16px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row.pad-0 {
+    width: 100%;
+    margin: 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas  span[class^="icon-"] {
+    color: rgb(84 84 84 / 70%);
+    width: 24px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 8px;
+    margin-right: 2px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    z-index: 0;
+    top: calc(50% - 11px);
+    position: absolute;
+    right: 3px;
+    z-index: 0;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas span[class^="icon-autos"] {
+    width: 40px;
+    padding-left: 10px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .form-group {
+    margin-bottom: 0px;
+    width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .input-group {
+    position: relative;
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .input-group:hover span[class^="icon-"] {
+    color: var(--red-portal-exito);
+    transition: all .2s;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar, div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar {
+    position: absolute;
+    right: 0px;
+    background: var(--red-portal-exito);
+    color: white;
+    z-index: 1;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all .5s;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar:hover, div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar:hover {
+    background: var(--red-portal-exito-hover);
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline i {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #545454;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline i.fas.fa-angle-double-down {
+    width: 20px;
+    text-align: center;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline i.fas.fa-angle-double-down.fa-angle-double-up {
+    color: var(--red-portal-exito);
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar a, div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar .btn-reservas {
+    display: flex;
+    width: auto;
+    padding: 10px 16px 10px 24px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    align-items: center;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar a span{
+    color:white;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar a p, div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar .btn-reservas p {
+    font-size: .8rem;
+    display: block;
+    margin: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar span.icon-search, div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar .btn-reservas span.icon-reservas {
+    width: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    background: none;
+    position: relative;
+    transform: none;
+    line-height: 0.6;
+    right: 6px;
+    top: 2px;
+    border-radius: 0px;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers {
+    width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers label.txtNumPassengers {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    font-size: .8rem;
+    line-height: 40px;
+    padding-left: 0px;
+    color: #545454;
+    width: 100%;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers label.txtNumPassengers p {
+    margin-bottom: 0px;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0px 40px 0px 10px;
+    font-size: 0.75rem;
+    height: 40px;
+    line-height: 40px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers label.txtNumPassengers input {
+    padding: 0px;
+    width: 20px;
+    text-align: center;
+    height: 38px;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .form-group {
+    margin-bottom: 0px;
+}
+
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers .mipasajero {
+    width: 100%;
+    /* padding-right: 40px; */
+    z-index: 1;
+}
+div#AirFlightsMT h3 {
+    width: 200%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #545454;
+}
+
+div#netactica_booking_form div[role="tabpanel"] div#AirFlightsMT .airBoxM {
+    padding-right: 0px;
+    margin: 0px 0px 20px 0px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div#visibleMultidestino.consultar{
+    position: relative;
+    right: auto;
+    margin: 0px;
+}
+div#AirFlightsMT {
+    margin-right: 45px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div#visibleMultidestino.consultar a {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div#visibleMultidestino.consultar a p {
+    display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox input {
+    padding: 0px;
+    text-align: center;
+    width: auto;
+    display: contents;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox {
+    line-height: 40px;
+    font-size: .75rem !important;
+    text-align: left;
+    padding-left: 10px;
+    color: #545454;
+    font-weight: 400 !important;
+    width: 100%;
+    position: relative;
+    padding-right: 4px;
+    z-index: 1;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox p {
+    margin-bottom: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .75rem;
+    height: 40px;
+    line-height: 40px;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox .input-group p {
+    display: initial;
+    font-size: 0.8rem;
+}
+
+a.addNewTravel {
+    color: #545454;
+    font-size: 0.75rem;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+a.deleteTravel {
+    display: block;
+    background-position: center;
+    font-size: .8rem;
+    color: var(--red-portal-exito);
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+a.deleteTravel:hover{
+    color: var(--red-portal-exito-hover);
+    
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .quitar-before .input-group:before {
+    display: none;
+}
+
+div#netactica_booking_form .descripcion-widget .titulo-widget {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #545454;
+    margin: 0px 0px 2px 0px;
+}
+
+div#netactica_booking_form .descripcion-widget .descripcion {
+    margin-bottom: 6px;
+    font-size: .9rem;
+    display: none;
+}
+.border-bottom-new {
+    margin-bottom: 10px !important;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline {
+    display: flex;
+    font-size: .8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    color: #545454;
+    font-weight: 400;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales > div > div:nth-child(1) {
+    display: none;
+}
+
+div#opcionesEspecialesActionLabel, div#opcionesEspecialesActionLabelMulti {
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+    display: flex;
+}
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales > .col-xs-12.col-sm-12.col-md-12.d-flex {
+    
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+}
+
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline span {
+    font-size: .8rem;
+    margin-left: 5px;
+    color: #545454;
+    font-weight: 400;
+}
+
+div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales {
+    margin-bottom: 6px;
+}
+div#widget-sticky-wrapper {
+    z-index: 3;
+    height: auto !important;
+    position: relative;
+}
+article#widget {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin: 0px auto 10px auto;
+    width: 100%;
+    position: relative;
+    transition: all .5s;
+    z-index: 3;
+}
+div[atribute*="select_ninos"] {
+    flex-wrap: wrap;
+}
+
+div[atribute*="select_ninos"] > div > select {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #787878;
+    width: 96% !important;
+    padding: 0px;
+}
+div#destinosSugeridos {
+    position: absolute;
+    width: 100%;
+    max-width: 342px;
+    background: white;
+    box-shadow: 0px 0px 3px rgb(127 127 127 / 1%), 0px 3px 5px rgb(121 121 121 / 5%) inset;
+    border: 1px solid rgb(84 84 84 / 20%);
+    border-radius: 10px;
+    z-index: 10;
+    max-height: 250px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+div#destinosSugeridos img {
+    width: 100%;
+    border-radius: 6px;
+    height: 46px;
+    object-fit: cover;
+}
+div#destinosSugeridos h5 {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+div#destinosSugeridos > .row {
+    margin: 0px;
+}
+div#destinosSugeridos > .row > .container-fluid > .row > div {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#destinosSugeridos > .row > .container-fluid > .row > div:last-child {
+    padding-left: 20px;
+}
+div#destinosSugeridos > .row > .container-fluid > .row > div p {
+    margin-bottom: 0px;
+    line-height: 1.4;
+    color: #737373;
+}
+
+div#destinosSugeridos > .row > .container-fluid > .row > div p.destino {
+    font-weight: 700;
+    font-size: .9rem;
+    color: #545454;
+}
+
+div#destinosSugeridos > .row > .container-fluid > .row > div p.fechas {
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+div#destinosSugeridos > .row > .container-fluid > .row > div p.origen {
+    font-size: .75rem;
+}
+
+div#destinosSugeridos > .row > .container-fluid > .row {
+    margin: 6px 0px;
+}
+
+div#destinosSugeridos > .row > .container-fluid {
+    padding: 0px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    background: white;
+    transition: background .3s;
+}
+
+div#destinosSugeridos > .row > .container-fluid:last-child {
+    border-bottom: 0px;
+}
+
+div#widget-sticky-wrapper.is-sticky article#widget {
+    width: 100% !important;
+    background: white;
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 10%);
+    left: 0px;
+}
+div#widget-sticky-wrapper.is-sticky div#netactica_booking_form .descripcion-widget{
+    display:none
+}
+
+div#widget-sticky-wrapper.is-sticky div#netactica_booking_form {
+    padding: 2px 18px;
+    box-shadow: none;
+}
+
+div#widget-sticky-wrapper.is-sticky div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu, article#widget.is-sticky div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu {
+    margin-bottom: 0px;
+}
+
+    
+@media only screen and (min-width: 992px){
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div#AirFlightsMT > .row:last-child{
+        justify-content: flex-end;
+        padding-right: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input.codigo-promocional {
+        height: 40px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row {
+        padding-right: 116px;
+    }
+    div#opcionesEspecialesActionLabel, div#opcionesEspecialesActionLabelMulti {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .title-datapicker{
+    display: block;
+}
+    #buscador {
+        display: block;
+        background: white;
+        border-radius: 15px;
+        color: #545454;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0px auto;
+        padding: 0.8rem 2rem 0.8rem 1rem;
+        position: relative;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+        font-family: "Poppins", sans-serif;
+        width: calc(100% - 24px);
+    }
+    #buscador span {
+        color: var(--red-portal-exito);
+        font-size: 1.25rem;
+        position: absolute;
+        right: 10px;
+        top: 14px;
+    }
+    .ui-menu.ui-widget.ui-widget-content{
+        z-index: 99999999999999999999;
+        width: 93% !important;
+    }
+    .ui-menu .ui-menu-item a{
+        font-size: .75rem;
+        padding: 7px 7px !important;
+    }
+    .ui-menu .ui-menu-item:last-child a{
+        border-bottom: none !important;
+    }
+    .ui-datepicker-multi .ui-datepicker-buttonpane {
+        display: block;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: block;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.opciones-especiales {
+        margin-top: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row.items-opciones-especiales > div {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row.items-opciones-especiales > div:nth-child(1) {
+        display: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div[data-travel*="AirFlight"] .d-md-flex {
+        display: flex;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div .d-md-flex.colWidgetcolWidget {
+        display: flex;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div .d-md-flex.colWidgetcolWidget .colWidget {
+        width: 50%;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets .itm {
+        width: 100%;
+    }
+    .border-sombra{
+         width: 100%;
+         border: none;
+         box-shadow: none;
+    }
+    .container-fluid.descripcion-widget {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        transform: none;
+    }
+    .border-bottom-new{
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    article#widget {
+         left: 0;
+         top: 0;
+         height: auto;
+         width: 100%;
+         transition: all .5s;
+         padding-bottom: 0px;
+         transform: none;
+         margin: 0px 0px 20px 0px;
+         background: white;
+         box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+         border-radius: 10px;
+         z-index: 1;
+    }
+     article#widget .info img {
+         width: 30%;
+         display: block;
+         margin: 3.125rem auto 1.25rem;
+         max-width: 200px;
+    }
+     article#widget .info h4 {
+         color: #545454;
+        font-size: 1.15rem;
+        font-weight: 700;
+        line-height: 1.15rem;
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+     article#widget .info p {
+         color: #545454;
+         font-size: 0.875rem;
+         font-weight: 400;
+         line-height: 1rem;
+         text-align: center;
+         margin-bottom: .5rem;
+    }
+    div.popUpWidget{
+        content: " ";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 70%);
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        display: none;
+    }
+    div.popUpWidget.active{
+        display: block
+    }
+    div.morePop + div.popUpWidget {
+        display:none;
+
+    }
+    div.morePop.active + div.popUpWidget {
+        display:block;
+
+    }
+    div#netactica_booking_form ul#myTab {
+        position: relative;
+        transform: none;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: none;
+        padding: 6px 8px;
+        margin: 0px auto;
+        background: none;
+        width: 100%;
+        border-bottom: 0px;
+        left: 0px;
+        overflow: auto;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    div#netactica_booking_form ul#myTab li {
+        margin-bottom: 8px;
+    }
+
+    div#netactica_booking_form ul#myTab li a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 12px 10px 8px 10px;
+        height: auto;
+        width: auto;
+        border-radius: 0px;
+        width: 60px;
+        background: white;
+    }
+div#netactica_booking_form ul#myTab li a:hover{
+    font-weight: 500;
+    border: none;
+}
+    div#netactica_booking_form ul#myTab li a i {
+        margin: 0px auto;
+        width: 100%;
+        display: block;
+        font-size: 1.8rem;
+        line-height: 0.8;
+    }
+
+    div#netactica_booking_form ul#myTab li a span {
+        font-size: .65rem;
+        line-height: .6rem;
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    div#netactica_booking_form div.tab-content {
+        max-width: calc(100% - 25px);
+        width: 100%;
+        margin: 0px 10px;
+        padding: 0px;
+    }
+    div#netactica_booking_form .descripcion-widget .titulo-widget {
+        margin: 10px 0px 10px 0px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    div#netactica_booking_form .descripcion-widget .descripcion {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin-bottom: .5rem;
+        margin-top: -0.5rem;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets button.btn.btn-select {
+        display: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets {
+        width: 100%;
+        padding: 0px;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li {
+        width: auto;
+        border: none;
+        padding: 0px;
+        display: flex;
+        margin: 0px;
+        float: left;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li label {
+        font-size: .75rem;
+        text-align: left;
+        width: auto;
+        line-height: .8rem;
+        display: flex;
+        padding: 4px 9px 4px 25px;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.col-12.bd-right.btn-widgets ul.dropdown-menu li:last-child:before {
+        display: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        height: auto;
+    }
+   
+    .div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar:hover {
+         background: var(--red-portal-exito-hover) !important;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div#visibleMultidestino.consultar {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        border-top: 0px;
+        z-index: 0;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar a p, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div#visibleMultidestino.consultar a p {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        font-size: .8rem;
+        line-height: 1.7;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div.consultar span.icon-search {
+        transform: none;
+        left: auto;
+        right: auto;
+        top: 0px;
+        position: relative;
+        margin-left: 10px;
+        width: 30px;
+        line-height: 1.4rem;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad {
+        width: 100%;
+        display: block;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .input-group:before {
+        display: none;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget {
+        background: white;
+        box-shadow: none;
+        border: 1px solid rgb(84 84 84 / 20%);
+        border-radius: 8px;
+        width: 100%;
+        box-shadow: 0px 3px 5px rgb(121 121 121 / 5%) inset;
+        margin: 0px 0px 10px 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad.btn-trayecto {
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0px;
+        padding: 10px 10px;
+        flex: 0 0 50%;
+        width: 50%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad.btn-trayecto a {
+        height: auto;
+        line-height: 1.2;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad.colWidget-date {
+        width: calc(50% - 5px);
+        margin-right: 10px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidgetMitad.colWidget-date:last-child {
+        margin-right: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas > .row > div .d-md-flex.colWidgetContent .colWidget {
+        width: 50%;
+    }
+    div#netactica_booking_form div[role="tabpanel"] div#AirFlightsMT .airBoxM:last-child .colWidget {
+        border-bottom: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas {
+        margin: 0px;
+        padding: 0px;
+    }
+    div#netactica_booking_form #revolve span{
+        margin: 0px;
+        font-size: 1.5rem;
+        background: none;
+        height: auto;
+        line-height: 1;
+        width: auto;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    div#netactica_booking_form{
+        padding: 18px 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container-fluid .consultar {
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 10px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas select,
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input::placeholder, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas select::placeholder{
+        /*min-height: 40px;*/
+        font-size: .75rem !important;
+        line-height: 40px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox{
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas input::placeholder, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas select::placeholder {
+        padding: 0px;
+    }
+    div#netactica_booking_form #revolve {
+        padding: 0px;
+        display: flex;
+        border: 1px solid rgb(0 0 0 / 10%);
+        position: absolute !important;
+        top: calc(50% - 21px);
+        left: 10px;
+        z-index: 1;
+        transform: rotate(90deg);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 32px;
+        height: 32px;
+        background: white;
+    }
+    /*input::placeholder {
+        background: red;
+        color: white;
+        outline:0;
+        height:40px;
+    }*/
+        
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers .mipasajero{
+        width: 100%;
+        padding-right: 30px;
+    }
+    div#netactica_booking_form #revolve:before {
+        display: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .input-group{
+        padding-left:0px; 
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers label.txtNumPassengers {
+        font-size: 0.8rem;
+        line-height: 40px;
+        padding-left: 4px;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .colWidget.colWidget-passengers label.txtNumPassengers input {
+        height: 46px;
+    }
+
+    
+    
+    .cerrar, div#ui-datepicker-div button.ui-datepicker-close, button#closemorePop {
+        position: fixed;
+        top: inherit;
+        right: calc(0% + 6px);
+        bottom: 385px;
+        color: rgb(84 84 84 / 50%) !important;
+        border-radius: 50%;
+        display: block;
+        font-size: 10px;
+        font-weight: 700 !important;
+        width: 28px;
+        height: 28px;
+        text-align: center !important;
+        line-height: 31px;
+        z-index: 1;
+        margin: 0px;
+        outline: 0;
+        border: none;
+    }
+    button.btn.btn-danger.btn-number span{
+        color: rgb(0 0 0 / 30%);
+    }
+    div.morePop .container-fluid.items-pasajeros > .row > .col-sm-7{
+        max-width: calc(100% - 60px);
+        flex: calc(100% - 60px);
+    }
+    div.morePop .container-fluid.items-pasajeros > .row > .col-sm-5{
+        max-width: 60px;
+        flex: 0 0 60px;
+    }
+    article#widget  a.cerrar.d-xl-none{
+        display: none;
+    }
+    div#ui-datepicker-div button.ui-datepicker-close:before, button#closemorePop:before{
+        content: "\f00d";
+        font-family: "Font Awesome 5 Free" !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        top: 6px;
+        font-weight: 700 !important;
+        left: calc(48% - 5px);
+        font-size: 16px;
+    }
+    div#ui-datepicker-div button.ui-datepicker-close {
+        color: rgb(84 84 84 / 50%) !important;
+        background: none;
+    }
+    .cerrar span {
+        font-size: 12px;
+    }
+    .ui-widget-header .ui-state-disabled {
+        display: none !important;
+    }
+    
+    div#ui-datepicker-div {
+        width: 100% !important;
+        top: initial !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        z-index: 9999 !important;
+        height: 420px;
+        padding: 20px;
+        padding-top: 11px;
+        overflow-y: auto;
+        position: fixed !important;
+        background: white;
+        border-radius: 0px;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+    }
+    
+    div#ui-datepicker-div .ui-datepicker-group {
+        width: 100%;
+        margin: 0px auto;
+        display: block;
+        float: none;
+    }
+    div#ui-datepicker-div .title-datapicker {
+        text-align: center;
+        font-family: "Poppins", Helvetica, sans-serif !important;
+        /* margin-top: -32px; */
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        background: white;
+        width: 100%;
+    }
+    .ui-datepicker .ui-datepicker-header {
+        background: none;
+        border: none;
+    }
+    body .ui-datepicker .ui-datepicker-title {
+        font-weight: 500;
+        font-size: .9rem;
+        margin: 0px 17px 0px 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 2.8rem;
+    }
+    
+    .ui-datepicker .ui-datepicker-buttonpane {
+        border: none;
+    }
+    
+    div.morePop {
+        min-height: auto;
+        position: fixed;
+        left: 0 !important;
+        top: inherit !important;
+        bottom: 0px;
+        height: 420px;
+        transform: none;
+        max-width: 100%;
+        padding: 26px 20px 26px 20px;
+        border-radius: 0px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        background: white;
+    }
+    div.morePop header h5, div.morePop .items-pasajeros h5{
+        text-align: left;
+        font-size: 1.1rem;
+        padding: 0px 0px 14px 0px;
+        margin-top: 0px;
+    }
+    div[atribute*="select_ninos"]{
+        margin-bottom: 20px;
+    }
+    button#closemorePop span {
+        display: none;
+    }
+
+    div.morePop .container-fluid {
+        padding: 0px;
+    }
+    div.morePop.morePopHabitaciones .contenedor-habitaciones{
+        height: 182px;
+        max-height: 182px;
+    }
+    div.morePop .container-fluid.items-pasajeros{
+        border: none;
+    }
+    div.morePop .container-fluid.items-pasajeros .close{
+        top: 19px;
+    }
+    div.morePop .container-fluid.items-pasajeros .col-7.col-sm-6 input {
+        width: 20px;
+        display: block;
+        flex: 0 0 20px;
+        background: none;
+    }
+
+    div.morePop .container-fluid.items-pasajeros .col-7.col-sm-6 .input-group {
+        justify-content: flex-end;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales > div {
+        padding: 0px 5px !important;
+    }
+    .col-12.caracteristicas.col-md.bd-righ.opciones-especiales > .d-flex {
+        display: block !important;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline {
+        text-align: left;
+        justify-content: left;
+        padding: 0px;
+        margin: 8px 0px;
+        font-size: .8rem;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales > div > div, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales > div > label.checkbox-inline {
+        /* display: none !important; */
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales div#opcionesEspecialesActionLabel label.checkbox-inline, div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales div#opcionesEspecialesActionLabelMulti label.checkbox-inline{
+        margin-top: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline span{
+        font-size: .8rem;
+    }
+    div#opcionesEspecialesActionLabel > .col-xs-12.col-sm-12.col-md-3.pad-left-0 {
+        padding: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales {
+        padding: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.opciones-especiales label.checkbox-inline input {
+        position: relative;
+        transform: none;
+    }
+    div#ui-datepicker-div button.ui-datepicker-close {
+        font-size: 0px;
+    }
+
+    div#AirFlightsMT > .airBoxM.row.row-medium-gutters > div {
+        box-shadow: none;
+        border: none;
+    }
+    
+    div#AirFlightsMT .airBoxM.row.row-medium-gutters > div .colWidget.colWidget-passengers.pasajeroClase {
+        margin-bottom: 0px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .habitacionesBox .input-group {
+        line-height: 46px;
+        font-size: .75rem !important;
+        padding-left: 4px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] div#AirFlightsMT .airBoxM:last-child {
+        border: none;
+        margin: 0px !important;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] div#AirFlightsMT .airBoxM {
+        padding-right: 0px !important;
+        border-bottom: none;
+        margin: 20px 0px 0px 0px !important;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas .input-group:hover{ 
+        box-shadow: none;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales h3 {
+        text-align: center;
+        font-size: .85rem;
+        font-weight: 600;
+        color: #545454;
+        margin: 8px 0px;
+    }
+
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex label {
+        display: flex;
+        font-size: .8rem;
+        align-content: center;
+        align-items: center;
+        justify-content: left;
+        width: auto;
+        margin-right: 10px;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex label input {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        min-height: auto;
+        border-radius: 2px;
+        border: none;
+        appearance: none;
+        margin: 0px;
+        min-width: 0px;
+        padding: 0px;
+        cursor: pointer;
+        box-shadow: 0.1rem 0.1rem 0.2rem #02020214, -0.2rem -0.2rem 0.5rem #e6e6e687;
+        font-family: "Font Awesome 5 Free" !important;
+        position: relative;
+        margin-right: 6px;
+        border: 1px solid rgb(84 84 84 / 20%);
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex label input:checked {
+        background: var(--red-portal-exito);
+        border-color: var(--red-portal-exito);
+    }
+    
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex label input:checked:before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900;
+        text-rendering: auto;
+        text-align: center;
+        font-size: 12px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        color: #000000;
+        width: 100%;
+        height: 100%;
+        line-height: 0px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        opacity: .4;color: white;
+        opacity: 1;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex {
+        width: 100%;
+        justify-content: center;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex .row {
+        width: 100%;
+    }
+    div#netactica_booking_form div[role="tabpanel"] > .container.container--tab div.caracteristicas.encuentra-servicios-adicionales .d-flex .col-12 {
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+    }
+    .bvalidator_errmsg div div div:nth-child(1){
+        font-size: .5rem;
+        line-height: 1;
+    }
+    .bvalidator_errmsg div div:last-child div:nth-child(1) {
+        font-size: .7rem;
+        height: 16px;
+    }
+    .bvalidator_errmsg {
+        top: -20px !important;
+        padding: 0px 0px 0px 4px;
+    }
+    .bvalidator_errmsg:before {
+        border-top: 6px solid var(--red-portal-exito);
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+        bottom: -6px;
+        display: none;
+    }
+}
